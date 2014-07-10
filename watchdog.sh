@@ -1,12 +1,14 @@
 #!/bin/sh
 
-BOT_PID=./bot.pid
+# Absolute path to bot.pid (and underattackbot.py)
+# or relative path to user's home directory when running with crontab
+BOT_PID=/absolute/path/to/bot.pid
 
 check_bot() {
     if [[ ! -f $BOT_PID ]];then
         # PID file not found - need to start the script again
         echo "Restarting bot"
-        nohup ./underattackbot.py > /dev/null 2>&1 &
+        nohup /aboslute/path/to/underattackbot.py > /dev/null 2>&1 &
     fi
 }
 

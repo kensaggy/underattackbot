@@ -25,8 +25,9 @@ from docopt import docopt
 
 __version__ = '0.0.1'
 
-PIDFILE = './bot.pid'
-LOGFILE = './bot.log'
+# Modify paths to match your setup
+PIDFILE = '/home/bot/bot.pid'
+LOGFILE = '/home/bot/bot.log'
 logging.basicConfig(filename=LOGFILE,level=logging.DEBUG)
 
 ACCESS_KEY = ''  # Edit these with values after you run get-access-tokens

@@ -21,13 +21,15 @@ import tweepy
 import time
 import logging
 import traceback
+from itertools import izip_longest
 from docopt import docopt
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 # Modify paths to match your setup
 PIDFILE = '/home/bot/bot.pid'
 LOGFILE = '/home/bot/bot.log'
+LOCATIONS_INDEX = '/home/bot/locations_json.json'
 logging.basicConfig(filename=LOGFILE,level=logging.DEBUG)
 
 ACCESS_KEY = ''  # Edit these with values after you run get-access-tokens
@@ -39,7 +41,9 @@ API_SECRET = ''  # Same with this
 DATA_API_URL = 'http://www.oref.org.il/WarningMessages/alerts.json'
 HEADERS = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36' }
 
-TWEET_MSG = '%a, %d %b %Y, Local time is now %H:%M:%S Missiles are being launch against Israel citizens. #IsraelUnderFire'
+TIME_FORMAT = '%d/%m/%y,%H:%M:%S'
+TWEET_MSG = '{0} Missiles are being launched against {1}. #IsraelUnderFire #GazaUnderAttack #PreyForGaza #PrayForPalestina'
+GENERIC_TWEET_MSG = '{0} Missiles are being launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PreyForGaza #PrayForPalestina'
 def get_access_tokens():
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
     auth.secure = True
@@ -56,43 +60,87 @@ class Bot:
     auth.secure = True
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
     api = tweepy.API(auth)
+    location_index = None;
 
     def __init__(self):
-        pass
+        self.last_alert_id = 0
+        with open(LOCATIONS_INDEX, "r") as loc:
+            Bot.location_index = json.loads(loc.read())
 
 
     def check_for_alarm(self):
         url = DATA_API_URL + '?_=' + str(int(time.time()))  #add cache busting
         request = urllib2.Request(url, None, HEADERS)
-        answer = False
+        answer = {'data': [], 'id': 0}
         try:
             response = urllib2.urlopen(request)
             data = response.read()
             obj = json.loads(data.decode('utf-16'))
-            answer = True if obj['data'] else False
-            logging.debug("Requesting url: %s data is: %s returning %s", url, obj['data'], answer)
+            answer = obj
+            logging.debug("Requesting url: %s data is: %s , last alert id: %s,", url, obj['data'], obj['id'])
         except:
-            logging.excption('Problem retrieving status')
+            logging.exception('Problem retrieving status')
 
         return answer
 
+    def cities_by_location_indices(self, indices):
+        """
+        Returns a unique list of city names according to the indices parameter
+        which is a some sort of weird geo-fence name
+        """
+        # Extract english name of areas
+        areas = [Bot.location_index[loc][0]['name_en'] for loc in indices]
 
-    def tweet_it(self, test=False):
-        msg = time.strftime(TWEET_MSG)
+        # Structure of the file is quite weird in some places :-/
+        names = []
+        for area in areas:
+            t = [a.strip() for a in area.split(',')]
+            names.append(t[1] if t[1] != 'Israel' else t[0])
+
+        names = list(set(names)) #stupid uniquify trick
+        return names
+
+    def tweet_it(self, cities, test=False):
         if test:
-            msg = "TEST ONLY!! " + msg
-        logging.warning("Alarm was set off - tweeting message: %s", msg)
-        Bot.api.update_status(msg)
+            test_msg = "TEST Tweet!!"
+            Bot.api.update_status(test_msg)
+            return
+
+        #First create a list with only one tweet
+        tweets = [TWEET_MSG.format(time.strftime(TIME_FORMAT), ",".join(cities))]
+        tweets_over_140 = [tweet for tweet in tweets if len(tweet) > 140]
+        n = int(round(len(cities) / 2))
+        while tweets_over_140 and n > 1:
+            # Loop and break up the list of cities into smaller and smaller chunks but try to do it with minimum tweets as possible to avoid spamming
+            args = [iter(cities)] * n
+            subcities = list(izip_longest(fillvalue='', *args))
+            tweets = [TWEET_MSG.format(time.strftime(TIME_FORMAT), ",".join(list(part))) for part in subcities]
+            tweets_over_140 = [tweet for tweet in tweets if len(tweet) > 140]
+            n = int(round(n/2))
+
+        # Filter one last time to make sure we don't post more than 140 chars
+        good_tweets = [t for t in tweets if len(t) <= 140]
+        # If still nothing good to post, tweet the generic tweet - very unlikely
+        if not good_tweets:
+            good_tweets = [GENERIC_TWEET_MSG.format(time.strftime(TIME_FORMAT))]
+
+        logging.warning("Alarm was set off - tweeting messages: %s", good_tweets)
+        for msg in good_tweets:
+            #print "Tweeting: ", msg
+            Bot.api.update_status(msg)
 
     def run(self):
         try:
             while True:
-                is_alarm = self.check_for_alarm()
-                if is_alarm:
-                    self.tweet_it()
-                    time.sleep(30)
-                else:
-                    time.sleep(2)
+                result = self.check_for_alarm()
+                result_id = int(result['id'])
+                if result['data'] and result_id > self.last_alert_id:
+                    self.last_alert_id = result_id
+                    indices = [item.strip() for d in result['data'] for item in d.split(',')]
+                    cities = self.cities_by_location_indices(indices)
+                    self.tweet_it(cities)
+
+                time.sleep(2)
         except (KeyboardInterrupt, SystemExit):
             raise
 
@@ -104,7 +152,7 @@ def main():
 
     bot = Bot()
     if opts['tweet-test']:
-        bot.tweet_it(True)
+        bot.tweet_it([], test=True)
     else:
         pid = str(os.getpid())
 

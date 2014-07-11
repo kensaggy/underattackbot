@@ -28,7 +28,7 @@ from docopt import docopt
 __version__ = '0.0.3'
 
 try:
-    with open("config.yaml") as f:
+    with open(sys.path[0] + "/config.yaml") as f:
         config = yaml.load(f)
 except:
     print "Make sure config.yaml is present and readable"
@@ -155,7 +155,7 @@ class Bot:
                 print "Tweeting: ", msg
             else:
                 Bot.api.update_status(msg)
-                sleep(1)
+                time.sleep(1)
 
     def run(self):
         try:

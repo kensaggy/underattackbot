@@ -1,0 +1,17 @@
+debug: False
+
+dev:
+    stub_file: 'stub.json'
+
+files:
+  log_file: "/home/bot/bot.log"
+  pid_file: "/home/bot/bot.pid"
+  locations_file: "/home/bot/locations_json.json"
+
+keys:
+  api_key: ""
+  api_secret: ""
+  access_key: ""
+  access_secret: ""
+
+

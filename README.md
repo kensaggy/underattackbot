@@ -6,10 +6,11 @@ A twitter bot that tweets whenever missiles are being fired on Israeli citizen p
 ## Roll your own
 There are some basic steps you'll need to do to run your own bot:
 
+0. Create a copy of ```config.yaml.default``` and rename it to ```config.yaml```
 1. First you'll need to create a twitter app and get your API key and API secret (google it).
-2. Place them inside the python code where appropriate.
+2. Place them inside the ```config.yaml``` code where appropriate.
 3. Then run ```./underattackbot.py gen-access-tokens``` from the terminal and follow the on screen instructions.
-4. Save the output generated from the previous step and edit ```underattackbot.py``` and insert your ```ACCESS_KEY``` and ```ACCESS_SECRET```
+4. Save the output generated from the previous step and edit ```config.yaml``` and insert your ```access_key``` and ```access_secret```
 5. (optional) run a tweet test by running ```./underattackbot.py tweet-test```
 6. Added the watchdog.sh path to your crontab:
 

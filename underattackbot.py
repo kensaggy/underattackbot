@@ -58,8 +58,8 @@ EXAMPLE_FILE = config['dev']['stub_file']
 HEADERS = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36' }
 
 TIME_FORMAT = '%d/%m/%y,%H:%M:%S'
-TWEET_MSG = '{0} Missiles are being launched against {1}. #IsraelUnderFire #GazaUnderAttack #PreyForGaza #PrayForPalestina'
-GENERIC_TWEET_MSG = '{0} Missiles are being launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PreyForGaza #PrayForPalestina'
+TWEET_MSG = '{0} Missiles are being launched against {1}. #IsraelUnderFire #GazaUnderAttack #PrayForGaza #PrayForPalestina'
+GENERIC_TWEET_MSG = '{0} Missiles are being launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PrayForGaza #PrayForPalestina'
 def get_access_tokens():
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
     auth.secure = True

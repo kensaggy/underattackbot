@@ -1,4 +1,83 @@
 {
+  "נגב 300": [
+    {
+      "name_he": "א דנפירי",
+      "name_en": "E-Danfiri, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.128214, 
+      "lng": 34.813921
+    },
+    {
+      "name_he": "אבו עפאש",
+      "name_en": "Abu Afash, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.160374,
+      "lng": 34.808940
+    },
+    {
+      "name_he": "אל ג'רג'אווי",
+      "name_en": "El-Jarjawi, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.147448,
+      "lng": 34.819762
+    },
+    {
+      "name_he": "אל ולידי",
+      "name_en": "El-Walidi, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.178506,
+      "lng": 34.816030
+    },
+    {
+      "name_he": "אל כלאב",
+      "name_en": "El-Kilab, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.108355,
+      "lng": 34.850656
+    },
+    {
+      "name_he": "עזאזמה",
+      "name_en": "Azazme, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.153294,
+      "lng": 34.807674
+    },
+    {
+      "name_he": "עזאזמה דרומית לרמת חובב",
+      "name_en": "Azazme (South to Ramat Khovav), Israel",
+      "time": "דקה וחצי",
+      "lat": 31.098871, 
+      "lng": 34.836807
+    },
+    {
+      "name_he": "עזאזמה דרומית לשגב שלום",
+      "name_en": "Azazme (South to Segev Shalom), Israel",
+      "time": "דקה וחצי",
+      "lat": 31.163100, 
+      "lng": 34.820180
+    },
+    {
+      "name_he": "עזאזמה מזרחית לרמת חובב",
+      "name_en": "Azazme (East to Ramat Khovav), Israel",
+      "time": "דקה וחצי",
+      "lat": 31.133020,
+      "lng": 34.817204
+    },
+    {
+      "name_he": "רמת חובב",
+      "name_en": "Ramat Hovav, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.135211,
+      "lng": 34.791038
+    },
+    {
+      "name_he": "תראבין א צאנה שבט",
+      "name_en": "Tirabin al-Sana, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.345531, 
+      "lng": 34.737041
+    }
+  ],
   "נגב 299": [
     {
       "name_he": "א דהאבשה",

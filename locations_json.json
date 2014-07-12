@@ -1,4 +1,34 @@
 {
+  "דן 162": [
+    {
+      "name_he": "אזור",
+      "name_en": "Azor, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.029504,
+      "lng": 34.799724
+    },
+    {
+      "name_he": "בת ים",
+      "name_en": "Bat Yam, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.013178,
+      "lng": 34.747709
+    },
+    {
+      "name_he": "חולון",
+      "name_en": "Holon, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.015560,
+      "lng": 34.788097
+    },
+    {
+      "name_he": "מקווה ישראל",
+      "name_en": "Mikveh Israel, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.034894, 
+      "lng": 34.786368
+    }
+  ],
   "נגב 299": [
     {
       "name_he": "א דהאבשה",

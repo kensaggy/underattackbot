@@ -27,7 +27,7 @@ from math import floor
 from itertools import izip_longest
 from docopt import docopt
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 try:
     with open(sys.path[0] + "/config.yaml") as f:

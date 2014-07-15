@@ -159,6 +159,7 @@ class Bot:
 
         #First create a list with only one tweet
         all_tweets = self.build_tweets(len(cities), cities)
+        good_tweets = [tweet for tweet in all_tweets if len(tweet) <= 140]
         over_140 = [tweet for tweet in all_tweets if len(tweet) > 140]
         n = len(cities)-1
         while over_140 and n >= 1:
@@ -200,7 +201,7 @@ class Bot:
             if DEBUG:
                 print "Tweeting: ", msg
             else:
-                Bot.api.update_status(msg)
+                #Bot.api.update_status(msg)
                 time.sleep(1)
 
     def run(self):

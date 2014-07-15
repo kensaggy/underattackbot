@@ -22,6 +22,8 @@ import time
 import logging
 import traceback
 import yaml
+import re
+from math import floor
 from itertools import izip_longest
 from docopt import docopt
 
@@ -58,8 +60,9 @@ EXAMPLE_FILE = config['dev']['stub_file']
 HEADERS = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36' }
 
 TIME_FORMAT = '%d/%m/%y,%H:%M:%S'
-TWEET_MSG = '{0} Missiles are being launched against {1}. #IsraelUnderFire #GazaUnderAttack #PrayForGaza #PrayForPalestina'
-GENERIC_TWEET_MSG = '{0} Missiles are being launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PrayForGaza #PrayForPalestina'
+TWEET_MSG = '{0} Missiles launched against {1}. #IsraelUnderFire #GazaUnderAttack #PrayForGaza'
+ALTERNATE_TWEET_MSG = '{0} Missiles launched against {1} & {2} others. #IsraelUnderFire #PrayForGaza'
+GENERIC_TWEET_MSG = '{0} Missiles launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PrayForGaza'
 def get_access_tokens():
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
     auth.secure = True
@@ -97,8 +100,8 @@ class Bot:
                 response = urllib2.urlopen(request)
                 data = response.read()
                 obj = json.loads(data.decode('utf-16'))
+                logging.debug("Requesting url: %s data is: %s , last alert id: %s,", url, obj['data'], obj['id'])
             answer = obj
-            logging.debug("Requesting url: %s data is: %s , last alert id: %s,", url, obj['data'], obj['id'])
         except:
             logging.exception('Problem retrieving status')
 
@@ -110,18 +113,43 @@ class Bot:
         which is a some sort of weird geo-fence name
         """
         logging.debug("Got indices: %s", indices)
-        # Extract english name of areas
-        areas = [Bot.location_index[loc][0]['name_en'] for loc in indices]
-
+        # Extract english name of areas, exclude areas which names contains any Hebrew characters (some oddities)
+        heb = re.compile(ur'^[^\u05d0-\u05ea]*$', re.UNICODE)
+        areas = [city['name_en'] for area in indices for city in Bot.location_index[area] if city['name_en'] != '' and heb.match(city['name_en'])]
         # Structure of the file is quite weird in some places :-/
         names = []
+
         for area in areas:
             t = [a.strip() for a in area.split(',')]
-            names.append(t[1] if t[1] != 'Israel' else t[0])
+            try:
+                if len(t) == 1 or len(t[0].split(' ')) <= 2:
+                    names.append(t[0])
+                elif t[1] != 'Israel' and len(t[1].split(' '))<=2:
+                    names.append(t[1])
+                else:
+                    continue
+            except IndexError:
+                logging.warning("INDEXERROR for area : %s", area)
 
         names = list(set(names)) #stupid uniquify trick
         logging.debug("Extracted names from indices: %s", names)
         return names
+
+    def build_tweets(self, n, cities, alternate=False):
+        """
+        Build tweets with n cities (from cities list) in each tweet
+        """
+        args = [iter(cities)] * n
+        grouped_cities = [filter(None,l) for l in izip_longest(fillvalue='', *args)]
+
+        time_str = time.strftime(TIME_FORMAT)
+        if alternate:
+            others = sum(len(group) for group in grouped_cities[2:])
+            tweets = [ALTERNATE_TWEET_MSG.format(time_str, ",".join(group), int(floor(others/2))) for group in grouped_cities[:2]]
+            return tweets
+
+        tweets = [TWEET_MSG.format(time_str, ",".join(group)) for group in grouped_cities]
+        return tweets
 
     def tweet_it(self, cities, test=False):
         if test:
@@ -129,27 +157,45 @@ class Bot:
             Bot.api.update_status(test_msg)
             return
 
-        logging.debug("Running tweet_it on cities: %s", cities)
         #First create a list with only one tweet
-        tweets = [TWEET_MSG.format(time.strftime(TIME_FORMAT), ",".join(cities))]
-        tweets_over_140 = [tweet for tweet in tweets if len(tweet) > 140]
+        all_tweets = self.build_tweets(len(cities), cities)
+        over_140 = [tweet for tweet in all_tweets if len(tweet) > 140]
         n = len(cities)-1
-        while tweets_over_140 and n >= 1:
+        while over_140 and n >= 1:
             # Loop and break up the list of cities into smaller and smaller chunks but try to do it with minimum tweets as possible to avoid spamming
-            args = [iter(cities)] * n
-            subcities = list(izip_longest(fillvalue='', *args))
-            tweets = [TWEET_MSG.format(time.strftime(TIME_FORMAT), ",".join(list(part))) for part in subcities]
-            tweets_over_140 = [tweet for tweet in tweets if len(tweet) > 140]
+            all_tweets = self.build_tweets(n, cities)
+
+            over_140 = [tweet for tweet in all_tweets if len(tweet) > 140]
+            good_tweets = [tweet for tweet in all_tweets if len(tweet) <= 140]
+            # Once we have more than one valid tweet (140 chars) we need to represent the attack
+            # in an alternate form - summing up the other cities we're no displaying
+            # as we don't want to tweet too many tweets per missile launch
+            # but we fallback to alternate form only when we've found the maximum group size n
+            if len(good_tweets) > 2:
+                logging.debug("More than 2 good tweets - Going into alternate form")
+                logging.debug("Good tweets before alternate form: %s", good_tweets)
+                # too many tweets to send at once, lets restructure them
+                while len(good_tweets) > 2 or [len(t) for t in good_tweets if len(t) > 140]:
+                    # First try to increase the group size by one, since the alternate form tweet
+                    # has one less hashtag to make room for the extra string "& xx others"
+                    # so we might be able to display one more city per tweet
+                    good_tweets = self.build_tweets(n+1, cities, True)
+                    n = n - 1
+                logging.debug("Alternate tweets built: %s", good_tweets)
+                # Break from main loop if we had too many tweets, but used alternate form
+                # we don't need to try to optimize any more good tweets
+                break
             n = n - 1
 
-        # Filter one last time to make sure we don't post more than 140 chars
-        good_tweets = [t for t in tweets if len(t) <= 140]
-        # If still nothing good to post, tweet the generic tweet - very unlikely
+        # If still nothing good to post, tweet the generic tweet - Not sure this case can even exist
+        # This case is mostly left over from previous forms of building the tweet list
+        # But I don't have the energy or time to test if in fact every possible case will not trigger it
         if not good_tweets:
             good_tweets = [GENERIC_TWEET_MSG.format(time.strftime(TIME_FORMAT))]
 
-        logging.warning("Alarm was set off - tweeting messages: %s", good_tweets)
-        print "We have %s to tweet" % len(good_tweets)
+        if not DEBUG:
+            logging.warning("Alarm was set off - tweeting messages: %s", good_tweets)
+
         for msg in good_tweets:
             if DEBUG:
                 print "Tweeting: ", msg

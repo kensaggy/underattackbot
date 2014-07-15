@@ -1,113 +1,4 @@
 {
-  "נגב 300": [
-    {
-      "name_he": "א דנפירי",
-      "name_en": "E-Danfiri, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.128214, 
-      "lng": 34.813921
-    },
-    {
-      "name_he": "אבו עפאש",
-      "name_en": "Abu Afash, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.160374,
-      "lng": 34.808940
-    },
-    {
-      "name_he": "אל ג'רג'אווי",
-      "name_en": "El-Jarjawi, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.147448,
-      "lng": 34.819762
-    },
-    {
-      "name_he": "אל ולידי",
-      "name_en": "El-Walidi, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.178506,
-      "lng": 34.816030
-    },
-    {
-      "name_he": "אל כלאב",
-      "name_en": "El-Kilab, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.108355,
-      "lng": 34.850656
-    },
-    {
-      "name_he": "עזאזמה",
-      "name_en": "Azazme, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.153294,
-      "lng": 34.807674
-    },
-    {
-      "name_he": "עזאזמה דרומית לרמת חובב",
-      "name_en": "Azazme (South to Ramat Khovav), Israel",
-      "time": "דקה וחצי",
-      "lat": 31.098871, 
-      "lng": 34.836807
-    },
-    {
-      "name_he": "עזאזמה דרומית לשגב שלום",
-      "name_en": "Azazme (South to Segev Shalom), Israel",
-      "time": "דקה וחצי",
-      "lat": 31.163100, 
-      "lng": 34.820180
-    },
-    {
-      "name_he": "עזאזמה מזרחית לרמת חובב",
-      "name_en": "Azazme (East to Ramat Khovav), Israel",
-      "time": "דקה וחצי",
-      "lat": 31.133020,
-      "lng": 34.817204
-    },
-    {
-      "name_he": "רמת חובב",
-      "name_en": "Ramat Hovav, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.135211,
-      "lng": 34.791038
-    },
-    {
-      "name_he": "תראבין א צאנה שבט",
-      "name_en": "Tirabin al-Sana, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.345531, 
-      "lng": 34.737041
-    }
-  ],
-  "דן 162": [
-    {
-      "name_he": "אזור",
-      "name_en": "Azor, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.029504,
-      "lng": 34.799724
-    },
-    {
-      "name_he": "בת ים",
-      "name_en": "Bat Yam, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.013178,
-      "lng": 34.747709
-    },
-    {
-      "name_he": "חולון",
-      "name_en": "Holon, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.015560,
-      "lng": 34.788097
-    },
-    {
-      "name_he": "מקווה ישראל",
-      "name_en": "Mikveh Israel, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.034894, 
-      "lng": 34.786368
-    }
-  ],
   "נגב 299": [
     {
       "name_he": "א דהאבשה",
@@ -265,10 +156,10 @@
     },
     {
       "name_he": "קבועה",
-      "name_en": "",
+      "name_en": "Kabu'a, Israel",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 31.225087,
+      "lng": 35.214754
     },
     {
       "name_he": "קודייראת א צאנה",
@@ -316,10 +207,10 @@
     },
     {
       "name_he": "אדורה",
-      "name_en": "צומת אדורה",
+      "name_en": "Adora",
       "time": "דקה וחצי",
-      "lat": 31.554637,
-      "lng": 35.016261
+      "lat": 31.552219,
+      "lng": 35.017634
     },
     {
       "name_he": "אזור תעסוקה מיתרים",
@@ -337,10 +228,10 @@
     },
     {
       "name_he": "אל הג'רה",
-      "name_en": "El-Hijra Street, Kafr Qasim, Israel",
+      "name_en": "al Hijra",
       "time": "דקה וחצי",
-      "lat": 32.11456,
-      "lng": 34.982706
+      "lat": 31.488507,
+      "lng": 35.05476
     },
     {
       "name_he": "אל חדב",
@@ -470,10 +361,10 @@
     },
     {
       "name_he": "חגי",
-      "name_en": "Hagai Street, Petah Tikva, Israel",
+      "name_en": "Hagai",
       "time": "דקה וחצי",
-      "lat": 32.0703008,
-      "lng": 34.8971543
+      "lat": 31.49253,
+      "lng": 35.07953699999999
     },
     {
       "name_he": "ח'ירבת זיתא",
@@ -533,10 +424,10 @@
     },
     {
       "name_he": "כרמיל",
-      "name_en": "Karmil",
+      "name_en": "Karmiel, Israel",
       "time": "דקה וחצי",
-      "lat": 31.422234,
-      "lng": 35.134154
+      "lat": 32.914671,
+      "lng": 35.292417
     },
     {
       "name_he": "לב יתיר",
@@ -561,10 +452,10 @@
     },
     {
       "name_he": "מעין",
-      "name_en": "HaMa'ayan Street, Ben Ami, Israel",
+      "name_en": "Ma'in",
       "time": "דקה וחצי",
-      "lat": 33.0050852,
-      "lng": 35.1290358
+      "lat": 31.410036,
+      "lng": 35.132794
     },
     {
       "name_he": "מצדות יהודה",
@@ -793,6 +684,13 @@
       "lng": 34.850613
     },
     {
+      "name_he": "נאות חובב",
+      "name_en": "Ramat Hovav, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.135,
+      "lng": 34.791
+    },
+    {
       "name_he": "עזאזמה",
       "name_en": "Azazme (South to Segev Shalom), Israel",
       "time": "דקה",
@@ -898,6 +796,13 @@
       "time": "45 שניות",
       "lat": 32.165107,
       "lng": 34.882074
+    },
+    {
+      "name_he": "להב",
+      "name_en": "Lahav, Israel",
+      "time": "דקה",
+      "lat": 31.379363,
+      "lng": 34.871311
     },
     {
       "name_he": "להבים",
@@ -1052,10 +957,10 @@
     },
     {
       "name_he": "עופרים",
-      "name_en": "Ofarim Street, Gedera, Israel",
+      "name_en": "Ofarim",
       "time": "דקה וחצי",
-      "lat": 31.804905,
-      "lng": 34.7780545
+      "lat": 32.018225,
+      "lng": 35.043034
     },
     {
       "name_he": "עלי זהב",
@@ -1098,8 +1003,8 @@
       "name_he": "אל סייד",
       "name_en": "E-Sayed, Sakhnin, Israel",
       "time": "דקה וחצי",
-      "lat": 32.860226,
-      "lng": 35.300337
+      "lat": 31.29006799999999,
+      "lng": 34.926145
     },
     {
       "name_he": "אל עטאונה",
@@ -1124,24 +1029,24 @@
     },
     {
       "name_he": "כרמים",
-      "name_en": "Kramim Street, Mevaseret Zion, Israel",
+      "name_en": "Kramim, Israel",
       "time": "דקה וחצי",
-      "lat": 31.7900076,
-      "lng": 35.1486417
+      "lat": 31.333464,
+      "lng": 34.917879
     },
     {
       "name_he": "כרמית",
-      "name_en": "Derech Karmit, Jerusalem, Israel",
+      "name_en": "Karmit, Israel",
       "time": "דקה וחצי",
-      "lat": 31.7631588,
-      "lng": 35.1692276
+      "lat": 31.332182,
+      "lng": 34.896813
     },
     {
       "name_he": "מולדה",
-      "name_en": "Molada Street, Dimona, Israel",
+      "name_en": "Mulada, Israel",
       "time": "דקה וחצי",
-      "lat": 31.0746372,
-      "lng": 35.0292711
+      "lat": 31.261071,
+      "lng": 34.975564
     },
     {
       "name_he": "מיתר",
@@ -1282,10 +1187,10 @@
     },
     {
       "name_he": "קדמת צבי",
-      "name_en": "Kidmat Tsvi Street, Rishon LeTsiyon, Israel",
+      "name_en": "Kidmat Tsvi",
       "time": "15 שניות",
-      "lat": 31.984647,
-      "lng": 34.764917
+      "lat": 33.029485,
+      "lng": 35.69774400000001
     },
     {
       "name_he": "קצרין",
@@ -1296,10 +1201,10 @@
     },
     {
       "name_he": "שעל",
-      "name_en": "Sha'al Street, Rishon LeTsiyon, Israel",
+      "name_en": "Sha'al",
       "time": "15 שניות",
-      "lat": 31.9842233,
-      "lng": 34.7618019
+      "lat": 33.11653,
+      "lng": 35.718816
     }
   ],
   "שומרון 126": [
@@ -1431,14 +1336,14 @@
     },
     {
       "name_he": "גבעת אסף",
-      "name_en": "גבעת אסף",
+      "name_en": "Givat Assaf",
       "time": "דקה וחצי",
-      "lat": 31.911475,
-      "lng": 35.250072
+      "lat": 32.089132,
+      "lng": 34.80734
     },
     {
       "name_he": "גיבע מצפון לירושלים ",
-      "name_en": "Jaba'",
+      "name_en": "Jaba",
       "time": "דקה וחצי",
       "lat": 31.858314,
       "lng": 35.260775
@@ -1529,10 +1434,10 @@
     },
     {
       "name_he": "כוכב יעקב",
-      "name_en": "Derech Kohav Ya'akov, Kokhav Ya'akov",
+      "name_en": "Kokhav Ya'akov",
       "time": "דקה וחצי",
-      "lat": 31.8779827,
-      "lng": 35.2447764
+      "lat": 31.880152,
+      "lng": 35.242773
     },
     {
       "name_he": "כפר ניעמה",
@@ -1585,10 +1490,10 @@
     },
     {
       "name_he": "ספא",
-      "name_en": "Spa, Belgium",
+      "name_en": "Safa",
       "time": "דקה וחצי",
-      "lat": 50.49243,
-      "lng": 5.86432
+      "lat": 31.903688,
+      "lng": 35.060213
     },
     {
       "name_he": "עין איוב",
@@ -1678,10 +1583,10 @@
     },
     {
       "name_he": "א.ת בראון",
-      "name_en": "ד\"ר בר און שלומי, Weissburg Street 17, Tel Aviv, 69358, Israel",
+      "name_en": "Industrial Zone Bar-On",
       "time": "דקה וחצי",
-      "lat": 32.1206092,
-      "lng": 34.8288453
+      "lat": 32.1034026,
+      "lng": 34.8780439
     },
     {
       "name_he": "אבני חפץ",
@@ -1797,17 +1702,17 @@
     },
     {
       "name_he": "ברכה",
-      "name_en": "Ha-Brakha Street, Mash'en, Israel",
+      "name_en": "Bracha",
       "time": "דקה וחצי",
-      "lat": 31.6550658,
-      "lng": 34.629931
+      "lat": 32.193264,
+      "lng": 35.264885
     },
     {
       "name_he": "גבעת סנה יעקב",
-      "name_en": "",
+      "name_en": "Giv'at Sne Ya'akov",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 32.177917,
+      "lng": 35.263443
     },
     {
       "name_he": "ג'וניד",
@@ -1853,10 +1758,10 @@
     },
     {
       "name_he": "הר גריזים",
-      "name_en": "Har Grizim (Mt. Gerizim) Street, Kfar Saba, Israel",
+      "name_en": "Har Gerizim",
       "time": "דקה וחצי",
-      "lat": 32.1800788,
-      "lng": 34.9235273
+      "lat": 32.202518,
+      "lng": 35.27074200000001
     },
     {
       "name_he": "זוואתא",
@@ -1874,10 +1779,10 @@
     },
     {
       "name_he": "חג'ה",
-      "name_en": "Hajjah, Yemen",
+      "name_en": "Haje",
       "time": "דקה וחצי",
-      "lat": 16.1180631,
-      "lng": 43.329466
+      "lat": 32.201456,
+      "lng": 35.131415
     },
     {
       "name_he": "ח'ווארה",
@@ -1916,10 +1821,10 @@
     },
     {
       "name_he": "כור",
-      "name_en": "Chur, Switzerland",
+      "name_en": "Kur",
       "time": "דקה וחצי",
-      "lat": 46.85726210000001,
-      "lng": 9.5267305
+      "lat": 32.23529,
+      "lng": 35.097373
     },
     {
       "name_he": "כפר ג'מאל",
@@ -1979,17 +1884,17 @@
     },
     {
       "name_he": "נאקורה",
-      "name_en": "Naqoura, Lebanon",
+      "name_en": "Naqura",
       "time": "דקה וחצי",
-      "lat": 33.1182896,
-      "lng": 35.1398657
+      "lat": 32.265335,
+      "lng": 35.198634
     },
     {
       "name_he": "סאלם ",
-      "name_en": "Salem, OR, USA",
+      "name_en": "Salem",
       "time": "דקה וחצי",
-      "lat": 44.9428975,
-      "lng": -123.0350963
+      "lat": 32.210415,
+      "lng": 35.333372
     },
     {
       "name_he": "סאלם ליד אלון מורה",
@@ -2077,10 +1982,10 @@
     },
     {
       "name_he": "ענב",
-      "name_en": "Einav Street, Sde Moshe, Israel",
+      "name_en": "Einav",
       "time": "דקה וחצי",
-      "lat": 31.6132073,
-      "lng": 34.7991043
+      "lat": 32.283594,
+      "lng": 35.125198
     },
     {
       "name_he": "עסירה אל קיבליה",
@@ -2175,10 +2080,10 @@
     },
     {
       "name_he": "שופה",
-      "name_en": "Shufa",
+      "name_en": "Shuva, Israel",
       "time": "דקה וחצי",
-      "lat": 32.276567,
-      "lng": 35.08026
+      "lat": 31.44995,
+      "lng": 34.545496
     },
     {
       "name_he": "שכם",
@@ -2331,10 +2236,10 @@
     },
     {
       "name_he": "ג'רבה",
-      "name_en": "Djerba, Tunisia",
+      "name_en": "Jirba",
       "time": "דקה וחצי",
-      "lat": 33.8075978,
-      "lng": 10.8451467
+      "lat": 32.385248,
+      "lng": 35.256934
     },
     {
       "name_he": "דיר אבו דעיף",
@@ -2562,10 +2467,10 @@
     },
     {
       "name_he": "סיר",
-      "name_en": "Sierre, Switzerland",
+      "name_en": "Sir",
       "time": "דקה וחצי",
-      "lat": 46.291289,
-      "lng": 7.53548
+      "lat": 32.3637,
+      "lng": 35.313947
     },
     {
       "name_he": "סיריס",
@@ -2702,10 +2607,10 @@
     },
     {
       "name_he": "רמה",
-      "name_en": "HaRama Street, Ganei Tikva, Israel",
+      "name_en": "Rama",
       "time": "דקה וחצי",
-      "lat": 32.0588695,
-      "lng": 34.8693049
+      "lat": 32.355139,
+      "lng": 35.170118
     },
     {
       "name_he": "שוויכה",
@@ -2730,10 +2635,10 @@
     },
     {
       "name_he": "תנין",
-      "name_en": "Tanin Street, Bat Yam, Israel",
+      "name_en": "Tanin",
       "time": "דקה וחצי",
-      "lat": 32.0228952,
-      "lng": 34.7552509
+      "lat": 32.414522,
+      "lng": 35.34027
     }
   ],
   "יהודה 206": [
@@ -3370,10 +3275,10 @@
     },
     {
       "name_he": "איתנים",
-      "name_en": "Ha-Itnim Street, Kfar Hess, Israel",
+      "name_en": "Eitanim, Israel",
       "time": "דקה וחצי",
-      "lat": 32.2466339,
-      "lng": 34.9374082
+      "lat": 31.7788889,
+      "lng": 35.0952778
     },
     {
       "name_he": "בית מאיר",
@@ -3384,10 +3289,10 @@
     },
     {
       "name_he": "בר גיורא",
-      "name_en": "Bar Giyora Street, Haifa, Israel",
+      "name_en": "Bar Giora, Israel",
       "time": "דקה וחצי",
-      "lat": 32.8066557,
-      "lng": 34.9949978
+      "lat": 31.729683,
+      "lng": 35.073414
     },
     {
       "name_he": "גבעת יערים",
@@ -3461,10 +3366,10 @@
     },
     {
       "name_he": "קרית יערים מוסד",
-      "name_en": "Kiryat Ye'arim Youth Village, Israel",
+      "name_en": "Kiryat Ye'arim (institution), Israel",
       "time": "דקה וחצי",
-      "lat": 31.812281,
-      "lng": 35.103581
+      "lat": 31.811061,
+      "lng": 35.103682
     },
     {
       "name_he": "קרית יערים/טלז סטון",
@@ -3533,17 +3438,17 @@
     },
     {
       "name_he": "אתגר",
-      "name_en": "Etgar Street, Tirat Carmel, Israel",
+      "name_en": "Etgar, Israel",
       "time": "דקה",
-      "lat": 32.7726121,
-      "lng": 34.9678902
+      "lat": 32.859351,
+      "lng": 35.256072
     },
     {
       "name_he": "בור אל מכסור",
-      "name_en": "",
+      "name_en": "Bir al-Maksur, Israel",
       "time": "דקה",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 32.804244,
+      "lng": 35.171806
     },
     {
       "name_he": "דמיידה",
@@ -3736,10 +3641,10 @@
     },
     {
       "name_he": "שגב/עצמון",
-      "name_en": "Atsmon Street, Karmiel, Israel",
+      "name_en": "Atzmon",
       "time": "דקה",
-      "lat": 32.9159839,
-      "lng": 35.2931439
+      "lat": 32.866649,
+      "lng": 35.250704
     },
     {
       "name_he": "שורשים",
@@ -3843,10 +3748,10 @@
     },
     {
       "name_he": "ביאדה",
-      "name_en": "",
+      "name_en": "Bayada",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 31.695284,
+      "lng": 35.248915
     },
     {
       "name_he": "בית רחאל",
@@ -3941,10 +3846,10 @@
     },
     {
       "name_he": "מיניה",
-      "name_en": "Minya, Qism Minya, Minya, Egypt",
+      "name_en": "Minya",
       "time": "דקה וחצי",
-      "lat": 28.0870967,
-      "lng": 30.7618397
+      "lat": 31.624313,
+      "lng": 35.215888
     },
     {
       "name_he": "מעלה עמוס",
@@ -4004,10 +3909,10 @@
     },
     {
       "name_he": "ערב א שמע",
-      "name_en": "Arab alSham'a",
+      "name_en": "",
       "time": "דקה וחצי",
-      "lat": 31.65461999999999,
-      "lng": 35.178852
+      "lat": 0.0,
+      "lng": 0.0
     },
     {
       "name_he": "ראס סניסיל",
@@ -4155,10 +4060,10 @@
     },
     {
       "name_he": "נבטים",
-      "name_en": "HaNavatim Street, Eilat, Israel",
+      "name_en": "Nevatim, Israel",
       "time": "דקה וחצי",
-      "lat": 29.5494585,
-      "lng": 34.9323914
+      "lat": 31.219761,
+      "lng": 34.882488
     },
     {
       "name_he": "שגב שלום",
@@ -4383,10 +4288,10 @@
     },
     {
       "name_he": "סלמה",
-      "name_en": "Shalma Road, Tel Aviv, Israel",
+      "name_en": "Sallama, Israel",
       "time": "דקה",
-      "lat": 32.0547645,
-      "lng": 34.7706342
+      "lat": 32.893248,
+      "lng": 35.370499
     },
     {
       "name_he": "עראבה",
@@ -4404,10 +4309,10 @@
     },
     {
       "name_he": "צביה",
-      "name_en": "צביה, Tsvia",
+      "name_en": "Tsvia, Israel",
       "time": "דקה",
-      "lat": 32.891436,
-      "lng": 35.331253
+      "lat": 32.889006,
+      "lng": 35.330599
     },
     {
       "name_he": "ראס אל עין",
@@ -4536,10 +4441,10 @@
     },
     {
       "name_he": "אחווה",
-      "name_en": "Akhva Street, Arad, Israel",
+      "name_en": "Ahva, Israel",
       "time": "45 שניות",
-      "lat": 31.259453,
-      "lng": 35.219438
+      "lat": 31.742893,
+      "lng": 34.767848
     },
     {
       "name_he": "אל עזי",
@@ -4556,6 +4461,13 @@
       "lng": 34.72557
     },
     {
+      "name_he": "ינון",
+      "name_en": "Yinon, Israel",
+      "time": "דקה",
+      "lat": 31.741832,
+      "lng": 34.780947
+    },
+    {
       "name_he": "כפר אחים",
       "name_en": "Kfar Ahim, Israel",
       "time": "45 שניות",
@@ -4563,11 +4475,25 @@
       "lng": 34.755932
     },
     {
+      "name_he": "כפר הרי''ף",
+      "name_en": "Kfar HaRif, Israel",
+      "time": "דקה",
+      "lat": 31.747029,
+      "lng": 34.790928
+    },
+    {
       "name_he": "כפר ורבורג",
       "name_en": "Kfar Warburg, Israel",
       "time": "45 שניות",
       "lat": 31.718747,
       "lng": 34.72868
+    },
+    {
+      "name_he": "כפר מנחם",
+      "name_en": "Kfar Menahem, Israel",
+      "time": "דקה",
+      "lat": 31.732077,
+      "lng": 34.835079
     },
     {
       "name_he": "מפעלי צומת מלאכי",
@@ -4596,6 +4522,20 @@
       "time": "45 שניות",
       "lat": 31.716336,
       "lng": 34.761356
+    },
+    {
+      "name_he": "תלמי יחיאל",
+      "name_en": "Talmei Yehi'el, Israel",
+      "time": "דקה",
+      "lat": 31.753621,
+      "lng": 34.764308
+    },
+    {
+      "name_he": "תעשיון ראם",
+      "name_en": "תעשיון צריפין, Be'er Ya'akov",
+      "time": "דקה",
+      "lat": 31.964252,
+      "lng": 34.848336
     }
   ],
   "שרון 138": [
@@ -4722,17 +4662,17 @@
     },
     {
       "name_he": "אומן",
-      "name_en": "Uman', Cherkas'ka oblast, Ukraine",
+      "name_en": "Merkaz Omen, Israel",
       "time": "דקה",
-      "lat": 48.75,
-      "lng": 30.216667
+      "lat": 32.564279,
+      "lng": 35.241941
     },
     {
       "name_he": "ברק",
-      "name_en": "Barak Street, Kiryat Motzkin, Israel",
+      "name_en": "Barak, Israel",
       "time": "דקה",
-      "lat": 32.82928,
-      "lng": 35.076543
+      "lat": 32.542821,
+      "lng": 35.265291
     },
     {
       "name_he": "גבע",
@@ -4771,10 +4711,10 @@
     },
     {
       "name_he": "חבר",
-      "name_en": "Khaver Street, Arad, Israel",
+      "name_en": "Hever, Israel",
       "time": "דקה",
-      "lat": 31.26409,
-      "lng": 35.215792
+      "lat": 32.549097,
+      "lng": 35.264911
     },
     {
       "name_he": "טייבה ליד מולדת",
@@ -4792,10 +4732,10 @@
     },
     {
       "name_he": "יעל",
-      "name_en": "Ya'el Street, Nesher, Israel",
+      "name_en": "Ya'el, Israel",
       "time": "דקה",
-      "lat": 32.773996,
-      "lng": 35.0390414
+      "lat": 32.552064,
+      "lng": 35.306548
     },
     {
       "name_he": "כפר יחזקאל",
@@ -4820,10 +4760,10 @@
     },
     {
       "name_he": "מיטב",
-      "name_en": "Meitav Street, Tel Aviv, Israel",
+      "name_en": "Meitav, Israel, Israel",
       "time": "דקה",
-      "lat": 32.066746,
-      "lng": 34.795167
+      "lat": 32.545509,
+      "lng": 35.300898
     },
     {
       "name_he": "מלאה",
@@ -4875,7 +4815,7 @@
       "lng": 35.398914
     }
   ],
-  "בית שמש  188": [
+  "בית שמש 188": [
     {
       "name_he": "אביעזר",
       "name_en": "Aviezer, Israel",
@@ -5315,10 +5255,31 @@
     },
     {
       "name_he": "איתן",
-      "name_en": "Eitan Street, Nir Tzvi, Israel",
+      "name_en": "Eitan, srael",
       "time": "30 שניות",
-      "lat": 31.952457,
-      "lng": 34.8590035
+      "lat": 31.572213,
+      "lng": 34.747909
+    },
+    {
+      "name_he": "גת",
+      "name_en": "Yanuh-Jat, Israel",
+      "time": "45 שניות",
+      "lat": 32.981568,
+      "lng": 35.241169
+    },
+    {
+      "name_he": "מבחור",
+      "name_en": "Mabhur, Israel",
+      "time": "45 שניות",
+      "lat": 31.620886,
+      "lng": 34.771006
+    },
+    {
+      "name_he": "נועם",
+      "name_en": "No'am, Israel",
+      "time": "45 שניות",
+      "lat": 31.568567,
+      "lng": 34.788161
     },
     {
       "name_he": "עוזה",
@@ -5326,6 +5287,20 @@
       "time": "30 שניות",
       "lat": 31.593042,
       "lng": 34.764524
+    },
+    {
+      "name_he": "קרית גת",
+      "name_en": "Kiryat Gat, Israel",
+      "time": "45 שניות",
+      "lat": 31.611148,
+      "lng": 34.768459
+    },
+    {
+      "name_he": "שדה משה",
+      "name_en": "Sde Moshe, Israel",
+      "time": "45 שניות",
+      "lat": 31.610982,
+      "lng": 34.800427
     },
     {
       "name_he": "שלווה",
@@ -5408,17 +5383,17 @@
     },
     {
       "name_he": "מיצר",
-      "name_en": "Ha-Meitsar Street, Yokne'am Ilit, Israel",
+      "name_en": "Meitsar",
       "time": "מיידי",
-      "lat": 32.6425889,
-      "lng": 35.08899359999999
+      "lat": 32.768641,
+      "lng": 35.736356
     },
     {
       "name_he": "נאות גולן",
-      "name_en": "Ne'ot Golan Street, Rishon LeTsiyon, Israel",
+      "name_en": "Ne'ot Golan",
       "time": "מיידי",
-      "lat": 31.981987,
-      "lng": 34.759801
+      "lat": 32.787026,
+      "lng": 35.693172
     },
     {
       "name_he": "נוב",
@@ -5475,10 +5450,10 @@
     },
     {
       "name_he": "דקל",
-      "name_en": "Ha-Dekel Street, Tel Mond, Israel",
+      "name_en": "Dekel, Israel",
       "time": "15 שניות",
-      "lat": 32.2531852,
-      "lng": 34.9181001
+      "lat": 31.195908,
+      "lng": 34.346771
     },
     {
       "name_he": "יבול",
@@ -5649,17 +5624,17 @@
     },
     {
       "name_he": "בית חולים פורייה",
-      "name_en": "Baruch Padeh Medical Center, Poriya, Israel",
+      "name_en": "Poriya Medical-Center",
       "time": "דקה",
-      "lat": 32.752327,
-      "lng": 35.540405
+      "lat": 32.752077,
+      "lng": 35.537867
     },
     {
       "name_he": "בית ירח",
-      "name_en": "Beit Yerah Street, Tel Aviv, Israel",
+      "name_en": "Beit Yerah, Israel",
       "time": "דקה",
-      "lat": 32.055943,
-      "lng": 34.786426
+      "lat": 32.712361,
+      "lng": 35.574715
     },
     {
       "name_he": "גבעת אבני",
@@ -6096,10 +6071,10 @@
     },
     {
       "name_he": "ח'ירבת אל עכאבה",
-      "name_en": "",
+      "name_en": "Khirbat al-Aqaba",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 32.44886,
+      "lng": 35.082009
     },
     {
       "name_he": "כפר קרע",
@@ -6131,17 +6106,17 @@
     },
     {
       "name_he": "קציר חריש",
-      "name_en": "Harish, Israel",
+      "name_en": "Katzir Harish, Israel",
       "time": "דקה וחצי",
-      "lat": 32.4588241,
-      "lng": 35.0580878
+      "lat": 32.487485,
+      "lng": 35.102257
     },
     {
       "name_he": "ריחן",
-      "name_en": "Rikhan Street, Hadera, Israel",
+      "name_en": "Reihan",
       "time": "דקה וחצי",
-      "lat": 32.417496,
-      "lng": 34.947619
+      "lat": 32.468752,
+      "lng": 35.135271
     }
   ],
   "שומרון 124": [
@@ -6387,10 +6362,10 @@
     },
     {
       "name_he": "תלם",
-      "name_en": "Ha-Telem Street, Savyon, Israel",
+      "name_en": "Telem",
       "time": "דקה וחצי",
-      "lat": 32.0442937,
-      "lng": 34.8848658
+      "lat": 31.563051,
+      "lng": 35.03124
     },
     {
       "name_he": "תרקומיא",
@@ -6523,6 +6498,13 @@
       "lng": 34.622824
     },
     {
+      "name_he": "מסלול",
+      "name_en": "Maslul, Israel",
+      "time": "30 שניות",
+      "lat": 31.323677,
+      "lng": 34.590761
+    },
+    {
       "name_he": "פדויים",
       "name_en": "Peduim, Israel",
       "time": "45 שניות",
@@ -6535,6 +6517,13 @@
       "time": "45 שניות",
       "lat": 31.316534,
       "lng": 34.595627
+    },
+    {
+      "name_he": "רנן",
+      "name_en": "Ranen, Israel",
+      "time": "30 שניות",
+      "lat": 31.33871,
+      "lng": 34.600358
     }
   ],
   "גליל עליון 44": [
@@ -6722,6 +6711,13 @@
   ],
   "נגב 301": [
     {
+      "name_he": "אורון",
+      "name_en": "Oron Street, Kiryat Gat, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.6024338,
+      "lng": 34.7615202
+    },
+    {
       "name_he": "אל ע'ול",
       "name_en": "El-Ghul (North to Dimona), Israel",
       "time": "דקה וחצי",
@@ -6809,10 +6805,10 @@
     },
     {
       "name_he": "יונתן",
-      "name_en": "Yonatan Street, Jerusalem, Israel",
+      "name_en": "Yonatan",
       "time": "מיידי",
-      "lat": 31.762929,
-      "lng": 35.2172502
+      "lat": 32.93966,
+      "lng": 35.795468
     },
     {
       "name_he": "מרום גולן",
@@ -6830,10 +6826,10 @@
     },
     {
       "name_he": "קשת",
-      "name_en": "Ha-Keshet Street, Shoham, Israel",
+      "name_en": "Keshet",
       "time": "מיידי",
-      "lat": 32.003322,
-      "lng": 34.94915
+      "lat": 32.980388,
+      "lng": 35.808484
     }
   ],
   "אשקלון 256": [
@@ -6883,10 +6879,10 @@
     },
     {
       "name_he": "כפר תקווה",
-      "name_en": "Derech HaKfar, Adanim, Israel",
+      "name_en": "Kfar Tikva, Israel",
       "time": "דקה",
-      "lat": 32.140644,
-      "lng": 34.905722
+      "lat": 32.05445,
+      "lng": 34.8548763
     },
     {
       "name_he": "קרית טבעון",
@@ -7364,8 +7360,8 @@
       "name_he": "אזור תעשייה אלון התבור",
       "name_en": "",
       "time": "דקה",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 32.708392,
+      "lng": 35.334399
     },
     {
       "name_he": "אחוזת ברק",
@@ -7425,10 +7421,10 @@
     },
     {
       "name_he": "נורית",
-      "name_en": "HaNurit Street, Beit Shemesh, Israel",
+      "name_en": "Nurit, Israel",
       "time": "דקה",
-      "lat": 31.738183,
-      "lng": 34.979673
+      "lat": 32.543238,
+      "lng": 35.35575499999999
     },
     {
       "name_he": "נין",
@@ -7476,6 +7472,13 @@
     }
   ],
   "אשקלון 254": [
+    {
+      "name_he": "אזור תעשייה נ.ע.מ",
+      "name_en": "Israel National Trail",
+      "time": "30 שניות",
+      "lat": 31.3409589,
+      "lng": 35.1009944
+    },
     {
       "name_he": "בית הגדי",
       "name_en": "Beit HaGadi, Israel",
@@ -7558,6 +7561,62 @@
       "lng": 35.0737487
     },
     {
+      "name_he": "אליפז",
+      "name_en": "Elifaz, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 29.79624799999999,
+      "lng": 35.012094
+    },
+    {
+      "name_he": "באר אורה",
+      "name_en": "Be'er Ora, Israel",
+      "time": "3 דקות",
+      "lat": 29.710166,
+      "lng": 34.987218
+    },
+    {
+      "name_he": "גרופית",
+      "name_en": "Grofit, Israel",
+      "time": "3 דקות",
+      "lat": 29.941617,
+      "lng": 35.064691
+    },
+    {
+      "name_he": "חצבה",
+      "name_en": "Hatzeva, Israel",
+      "time": "3 דקות",
+      "lat": 30.767942,
+      "lng": 35.278498
+    },
+    {
+      "name_he": "יהל",
+      "name_en": "Yahel, Israel",
+      "time": "3 דקות",
+      "lat": 30.084234,
+      "lng": 35.128393
+    },
+    {
+      "name_he": "יטבתה",
+      "name_en": "Yotvata, Israel",
+      "time": "3 דקות",
+      "lat": 29.896322,
+      "lng": 35.059227
+    },
+    {
+      "name_he": "לוטן",
+      "name_en": "Lotan, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 29.988263,
+      "lng": 35.086776
+    },
+    {
+      "name_he": "מיכרות תמנע",
+      "name_en": "",
+      "time": "3 דקות",
+      "lat": 0.0,
+      "lng": 0.0
+    },
+    {
       "name_he": "מפעלי ים המלח",
       "name_en": "מפעלי ים המלח",
       "time": "דקה וחצי",
@@ -7570,6 +7629,111 @@
       "time": "דקה וחצי",
       "lat": 0.0,
       "lng": 0.0
+    },
+    {
+      "name_he": "נאות הכיכר",
+      "name_en": "Neot HaKikar, Israel",
+      "time": "3 דקות",
+      "lat": 30.933368,
+      "lng": 35.378126
+    },
+    {
+      "name_he": "נאות סמדר",
+      "name_en": "Neot Semadar, Israel",
+      "time": "3 דקות",
+      "lat": 30.049079,
+      "lng": 35.028106
+    },
+    {
+      "name_he": "נווה חריף",
+      "name_en": "Neve Harif, Israel",
+      "time": "3 דקות",
+      "lat": 30.039793,
+      "lng": 35.03649
+    },
+    {
+      "name_he": "סמר",
+      "name_en": "Samar, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 29.833968,
+      "lng": 35.022204
+    },
+    {
+      "name_he": "ספיר",
+      "name_en": "Sapir, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 30.613623,
+      "lng": 35.184144
+    },
+    {
+      "name_he": "עידן",
+      "name_en": "Idan, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 30.806291,
+      "lng": 35.299946
+    },
+    {
+      "name_he": "עין חצבה",
+      "name_en": "Ein Hatzeva, Israel",
+      "time": "3 דקות",
+      "lat": 30.797209,
+      "lng": 35.24534
+    },
+    {
+      "name_he": "עין יהב",
+      "name_en": "Ein Yahav, Israel",
+      "time": "3 דקות",
+      "lat": 30.658757,
+      "lng": 35.239656
+    },
+    {
+      "name_he": "עין תמר",
+      "name_en": "Ein Tamar, Israel",
+      "time": "3 דקות",
+      "lat": 30.943594,
+      "lng": 35.37407
+    },
+    {
+      "name_he": "עיר אובות",
+      "name_en": "Ir Ovot, Israel",
+      "time": "3 דקות",
+      "lat": 30.808967,
+      "lng": 35.244389
+    },
+    {
+      "name_he": "פארן",
+      "name_en": "Paran, Israel",
+      "time": "3 דקות",
+      "lat": 30.362646,
+      "lng": 35.155149
+    },
+    {
+      "name_he": "צופר",
+      "name_en": "Tzofar, Israel",
+      "time": "3 דקות",
+      "lat": 30.559394,
+      "lng": 35.181474
+    },
+    {
+      "name_he": "צוקים",
+      "name_en": "Tzukim, Israel",
+      "time": "3 דקות",
+      "lat": 30.491551,
+      "lng": 35.165443
+    },
+    {
+      "name_he": "קטורה",
+      "name_en": "Ketura, Israel, Israel",
+      "time": "3 דקות",
+      "lat": 29.97088699999999,
+      "lng": 35.06135500000001
+    },
+    {
+      "name_he": "שחרות",
+      "name_en": "Shaharut, Israel",
+      "time": "3 דקות",
+      "lat": 29.904093,
+      "lng": 34.999173
     }
   ],
   "עמק יזרעאל 87": [
@@ -7745,10 +7909,10 @@
   "שומרון 125": [
     {
       "name_he": "אזור תעשייה שער בנימין",
-      "name_en": "אזור תעשיה שער בנימין",
+      "name_en": "",
       "time": "דקה וחצי",
-      "lat": 31.86487099999999,
-      "lng": 35.260373
+      "lat": 0.0,
+      "lng": 0.0
     },
     {
       "name_he": "ג'אלוד",
@@ -7857,10 +8021,10 @@
     },
     {
       "name_he": "קריות",
-      "name_en": "קריות, Kiryat Ata, Israel",
+      "name_en": "Karyut",
       "time": "דקה וחצי",
-      "lat": 32.808225,
-      "lng": 35.072582
+      "lat": 32.070084,
+      "lng": 35.29528
     },
     {
       "name_he": "רחלים",
@@ -7878,10 +8042,10 @@
     },
     {
       "name_he": "שילה",
-      "name_en": "Shilo Street, Rosh HaAyin, Israel",
+      "name_en": "Shilo",
       "time": "דקה וחצי",
-      "lat": 32.0900461,
-      "lng": 34.9600899
+      "lat": 32.054405,
+      "lng": 35.29909
     },
     {
       "name_he": "תורמוס עייא",
@@ -8073,10 +8237,10 @@
     },
     {
       "name_he": "תעשיות שער הנגב",
-      "name_en": "Sapirim Industrial Park, Israel",
+      "name_en": "",
       "time": "15 שניות",
-      "lat": 31.515771,
-      "lng": 34.60234
+      "lat": 0.0,
+      "lng": 0.0
     }
   ],
   "עמק חפר 139": [
@@ -8089,10 +8253,10 @@
     },
     {
       "name_he": "אילנות",
-      "name_en": "Ilanot Street, Haifa, Israel",
+      "name_en": "Ilanot",
       "time": "דקה וחצי",
-      "lat": 32.808427,
-      "lng": 34.9747839
+      "lat": 32.860816,
+      "lng": 35.082655
     },
     {
       "name_he": "בית ברל",
@@ -8168,8 +8332,8 @@
       "name_he": "כפר עבודה",
       "name_en": "Kfar Avoda, Israel",
       "time": "דקה וחצי",
-      "lat": 32.2558333,
-      "lng": 34.9397222
+      "lat": 32.255731,
+      "lng": 34.93966899999999
     },
     {
       "name_he": "מועצה אזורית לב השרון",
@@ -8468,10 +8632,10 @@
   "שפלה 182": [
     {
       "name_he": "אירוס",
-      "name_en": "Irus Street, Giv'at Ze'ev",
+      "name_en": "Irus, Israel",
       "time": "דקה וחצי",
-      "lat": 31.8633755,
-      "lng": 35.1616754
+      "lat": 31.928595,
+      "lng": 34.776605
     },
     {
       "name_he": "גבעת ברנר",
@@ -8589,10 +8753,10 @@
     },
     {
       "name_he": "משהד",
-      "name_en": "Mashhad, Iran",
+      "name_en": "Mashhad, Israel, Israel",
       "time": "דקה",
-      "lat": 36.2722737,
-      "lng": 59.63123019999999
+      "lat": 32.738912,
+      "lng": 35.322494
     },
     {
       "name_he": "נצרת",
@@ -8710,10 +8874,10 @@
     },
     {
       "name_he": "נטע",
-      "name_en": "Sderot Neta, Israel",
+      "name_en": "Neta, Israel",
       "time": "דקה",
-      "lat": 31.7726605,
-      "lng": 34.7496228
+      "lat": 31.477893,
+      "lng": 34.927774
     },
     {
       "name_he": "שומריה",
@@ -8733,10 +8897,10 @@
   "אשדוד 280": [
     {
       "name_he": "אלומה",
-      "name_en": "Aluma Street, Nazareth Iliit, Israel",
+      "name_en": "Aluma, Israel",
       "time": "45 שניות",
-      "lat": 32.7264315,
-      "lng": 35.3372658
+      "lat": 31.65204099999999,
+      "lng": 34.742872
     },
     {
       "name_he": "ורדון",
@@ -8812,10 +8976,10 @@
   "בקעה 133": [
     {
       "name_he": "אלון",
-      "name_en": "HaAlon Street, Kfar Netter, Israel",
+      "name_en": "Alon",
       "time": "דקה וחצי",
-      "lat": 32.2835394,
-      "lng": 34.8727325
+      "lat": 31.833354,
+      "lng": 35.353557
     },
     {
       "name_he": "אלמוג",
@@ -9016,169 +9180,6 @@
       "lng": 34.939994
     }
   ],
-  "ערבה 310": [
-    {
-      "name_he": "אליפז",
-      "name_en": "Elifaz, Israel, Israel",
-      "time": "3 דקות",
-      "lat": 29.79624799999999,
-      "lng": 35.012094
-    },
-    {
-      "name_he": "באר אורה",
-      "name_en": "Be'er Ora, Israel",
-      "time": "3 דקות",
-      "lat": 29.710166,
-      "lng": 34.987218
-    },
-    {
-      "name_he": "גרופית",
-      "name_en": "Grofit, Israel",
-      "time": "3 דקות",
-      "lat": 29.941617,
-      "lng": 35.064691
-    },
-    {
-      "name_he": "חצבה",
-      "name_en": "Hatzeva, Israel",
-      "time": "3 דקות",
-      "lat": 30.767942,
-      "lng": 35.278498
-    },
-    {
-      "name_he": "יהל",
-      "name_en": "Yahel, Israel",
-      "time": "3 דקות",
-      "lat": 30.084234,
-      "lng": 35.128393
-    },
-    {
-      "name_he": "יטבתה",
-      "name_en": "Yotvata, Israel",
-      "time": "3 דקות",
-      "lat": 29.896322,
-      "lng": 35.059227
-    },
-    {
-      "name_he": "לוטן",
-      "name_en": "Lotan, Israel, Israel",
-      "time": "3 דקות",
-      "lat": 29.988263,
-      "lng": 35.086776
-    },
-    {
-      "name_he": "מיכרות תמנע",
-      "name_en": "",
-      "time": "3 דקות",
-      "lat": 0.0,
-      "lng": 0.0
-    },
-    {
-      "name_he": "נאות הכיכר",
-      "name_en": "Neot HaKikar, Israel",
-      "time": "3 דקות",
-      "lat": 30.933368,
-      "lng": 35.378126
-    },
-    {
-      "name_he": "נאות סמדר",
-      "name_en": "Neot Semadar, Israel",
-      "time": "3 דקות",
-      "lat": 30.049079,
-      "lng": 35.028106
-    },
-    {
-      "name_he": "נווה חריף",
-      "name_en": "Neve Harif, Israel",
-      "time": "3 דקות",
-      "lat": 30.039793,
-      "lng": 35.03649
-    },
-    {
-      "name_he": "סמר",
-      "name_en": "Samar, Israel, Israel",
-      "time": "3 דקות",
-      "lat": 29.833968,
-      "lng": 35.022204
-    },
-    {
-      "name_he": "ספיר",
-      "name_en": "Sderot Sapir, Tiberias, Israel",
-      "time": "3 דקות",
-      "lat": 32.7851272,
-      "lng": 35.5197506
-    },
-    {
-      "name_he": "עידן",
-      "name_en": "Idan, Israel, Israel",
-      "time": "3 דקות",
-      "lat": 30.806291,
-      "lng": 35.299946
-    },
-    {
-      "name_he": "עין חצבה",
-      "name_en": "Ein Hatzeva, Israel",
-      "time": "3 דקות",
-      "lat": 30.797209,
-      "lng": 35.24534
-    },
-    {
-      "name_he": "עין יהב",
-      "name_en": "Ein Yahav, Israel",
-      "time": "3 דקות",
-      "lat": 30.658757,
-      "lng": 35.239656
-    },
-    {
-      "name_he": "עין תמר",
-      "name_en": "Ein Tamar, Israel",
-      "time": "3 דקות",
-      "lat": 30.943594,
-      "lng": 35.37407
-    },
-    {
-      "name_he": "עיר אובות",
-      "name_en": "Ir Ovot, Israel",
-      "time": "3 דקות",
-      "lat": 30.808967,
-      "lng": 35.244389
-    },
-    {
-      "name_he": "פארן",
-      "name_en": "Paran, Israel",
-      "time": "3 דקות",
-      "lat": 30.362646,
-      "lng": 35.155149
-    },
-    {
-      "name_he": "צופר",
-      "name_en": "Tzofar, Israel",
-      "time": "3 דקות",
-      "lat": 30.559394,
-      "lng": 35.181474
-    },
-    {
-      "name_he": "צוקים",
-      "name_en": "Tzukim, Israel",
-      "time": "3 דקות",
-      "lat": 30.491551,
-      "lng": 35.165443
-    },
-    {
-      "name_he": "קטורה",
-      "name_en": "Ketura, Israel, Israel",
-      "time": "3 דקות",
-      "lat": 29.97088699999999,
-      "lng": 35.06135500000001
-    },
-    {
-      "name_he": "שחרות",
-      "name_en": "Shaharut, Israel",
-      "time": "3 דקות",
-      "lat": 29.904093,
-      "lng": 34.999173
-    }
-  ],
   "גליל עליון 50": [
     {
       "name_he": "אליפלט",
@@ -9303,10 +9304,10 @@
     },
     {
       "name_he": "דליה",
-      "name_en": "Dalya Street, Nazareth Iliit, Israel",
+      "name_en": "Dalia, Israel, Israel",
       "time": "דקה וחצי",
-      "lat": 32.7290188,
-      "lng": 35.3318714
+      "lat": 32.58925,
+      "lng": 35.076965
     },
     {
       "name_he": "הזורע",
@@ -9368,8 +9369,8 @@
       "name_he": "פארק מדע ותעשייה מבוא כרמל",
       "name_en": "",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 32.247467,
+      "lng": 34.911025
     },
     {
       "name_he": "רמות מנשה",
@@ -9489,10 +9490,10 @@
     },
     {
       "name_he": "גבעתי",
-      "name_en": "Giv'ati Street, Rishon LeTsiyon, Israel",
+      "name_en": "Giv'ati, Israel",
       "time": "45 שניות",
-      "lat": 31.9659325,
-      "lng": 34.817042
+      "lat": 31.733138,
+      "lng": 34.679478
     },
     {
       "name_he": "עזר",
@@ -9535,10 +9536,10 @@
   "גליל תחתון 55": [
     {
       "name_he": "ארבל",
-      "name_en": "Arbel Street, Alfei Menashe",
+      "name_en": "Arbel, Israel",
       "time": "דקה",
-      "lat": 32.171995,
-      "lng": 35.010681
+      "lat": 32.812247,
+      "lng": 35.486453
     },
     {
       "name_he": "גינוסר",
@@ -9607,10 +9608,10 @@
   "בקעה 130": [
     {
       "name_he": "ארגמן",
-      "name_en": "Sderot Argaman, Eilat, Israel",
+      "name_en": "Argaman",
       "time": "דקה וחצי",
-      "lat": 29.5535169,
-      "lng": 34.9421849
+      "lat": 32.17334,
+      "lng": 35.522285
     },
     {
       "name_he": "בקעות",
@@ -9834,11 +9835,25 @@
       "lng": 34.666654
     },
     {
+      "name_he": "זרועה",
+      "name_en": "Zru'a, Israel",
+      "time": "15 שניות",
+      "lat": 31.459133,
+      "lng": 34.624161
+    },
+    {
       "name_he": "מבועים",
       "name_en": "Mabu'im, Israel",
       "time": "30 שניות",
       "lat": 31.44945,
       "lng": 34.65499399999999
+    },
+    {
+      "name_he": "ניר משה",
+      "name_en": "Nir Moshe, Israel",
+      "time": "15 שניות",
+      "lat": 31.477456,
+      "lng": 34.630085
     },
     {
       "name_he": "ניר עקיבא",
@@ -9921,10 +9936,10 @@
     },
     {
       "name_he": "עד הלום",
-      "name_en": "Gesher Ad Halom, Ashdod, Israel",
+      "name_en": "Ad Halom, Ashdod",
       "time": "45 שניות",
-      "lat": 31.801175,
-      "lng": 34.661321
+      "lat": 31.774014,
+      "lng": 34.666071
     }
   ],
   "באר שבע 289": [
@@ -9950,13 +9965,6 @@
       "lng": 34.648934
     },
     {
-      "name_he": "תחנת ניסיונות גילת",
-      "name_en": "Gilat Experiment Station, Israel",
-      "time": "45 שניות",
-      "lat": 31.335723,
-      "lng": 34.665344
-    },
-    {
       "name_he": "תפרח",
       "name_en": "Tifrah, Israel",
       "time": "45 שניות",
@@ -9973,6 +9981,13 @@
       "lng": 34.699674
     },
     {
+      "name_he": "באר מילכה",
+      "name_en": "Be'er Milka, Israel",
+      "time": "דקה",
+      "lat": 30.934112,
+      "lng": 34.405643
+    },
+    {
       "name_he": "ביר הדאג'",
       "name_en": "Bir Hadaj, Israel",
       "time": "דקה וחצי",
@@ -9987,6 +10002,13 @@
       "lng": 34.771261
     },
     {
+      "name_he": "כמהין",
+      "name_en": "Kmehin, Israel",
+      "time": "דקה",
+      "lat": 30.910327,
+      "lng": 34.430725
+    },
+    {
       "name_he": "מעלה שביט",
       "name_en": "Ma'ale Shavit, Israel",
       "time": "דקה וחצי",
@@ -9999,6 +10021,20 @@
       "time": "דקה וחצי",
       "lat": 31.00404199999999,
       "lng": 34.785029
+    },
+    {
+      "name_he": "ניצנה כפר נוער",
+      "name_en": "",
+      "time": "דקה",
+      "lat": 30.885189,
+      "lng": 34.422336
+    },
+    {
+      "name_he": "ניצני סיני",
+      "name_en": "Nitzanei Sinai, Israel",
+      "time": "דקה",
+      "lat": 30.903428,
+      "lng": 34.396679
     },
     {
       "name_he": "עזוז",
@@ -10060,10 +10096,10 @@
     },
     {
       "name_he": "באר גנים",
-      "name_en": "Be'er Ganim Street, Even Yehuda, Israel",
+      "name_en": "Be'er Ganim, Israel",
       "time": "30 שניות",
-      "lat": 32.271543,
-      "lng": 34.879782
+      "lat": 31.700354,
+      "lng": 34.610934
     }
   ],
   "שפלה 178": [
@@ -10110,36 +10146,6 @@
       "lng": 34.872938
     }
   ],
-  "נגב 302": [
-    {
-      "name_he": "באר מילכה",
-      "name_en": "Be'er Milka, Israel",
-      "time": "דקה",
-      "lat": 30.934112,
-      "lng": 34.405643
-    },
-    {
-      "name_he": "כמהין",
-      "name_en": "כמהין, Kmehin",
-      "time": "דקה",
-      "lat": 30.90948599999999,
-      "lng": 34.430439
-    },
-    {
-      "name_he": "ניצנה כפר נוער",
-      "name_en": "ניצנה - כפר נוער",
-      "time": "דקה",
-      "lat": 30.885189,
-      "lng": 34.422336
-    },
-    {
-      "name_he": "ניצני סיני",
-      "name_en": "Nitzanei Sinai, Israel",
-      "time": "דקה",
-      "lat": 30.903428,
-      "lng": 34.396679
-    }
-  ],
   "באר שבע 292": [
     {
       "name_he": "באר שבע",
@@ -10161,8 +10167,8 @@
       "name_he": "בארי",
       "name_en": "Be'eri, Israel",
       "time": "15 שניות",
-      "lat": 31.424142,
-      "lng": 34.491509
+      "lat": 31.424513,
+      "lng": 34.492567
     }
   ],
   "שפלה 181": [
@@ -10296,10 +10302,10 @@
     },
     {
       "name_he": "ג'דידה מכר",
-      "name_en": "Jadeidi-Makr, Israel",
+      "name_en": "Makr, Jadeidi-Makr, Israel",
       "time": "30 שניות",
-      "lat": 32.928656,
-      "lng": 35.150573
+      "lat": 32.935033,
+      "lng": 35.140087
     },
     {
       "name_he": "כפר מסריק",
@@ -10462,6 +10468,20 @@
       "lng": 34.759291
     },
     {
+      "name_he": "גן הדרום",
+      "name_en": "Gan HaDarom, Israel",
+      "time": "45 שניות",
+      "lat": 31.804056,
+      "lng": 34.69987
+    },
+    {
+      "name_he": "גן יבנה",
+      "name_en": "Gan Yavne, Israel",
+      "time": "45 שניות",
+      "lat": 31.783056,
+      "lng": 34.703101
+    },
+    {
       "name_he": "חצב",
       "name_en": "Hatsav, Israel",
       "time": "דקה",
@@ -10469,11 +10489,18 @@
       "lng": 34.770572
     },
     {
+      "name_he": "חצור אשדוד",
+      "name_en": "Hatsor Ashdod, Israel",
+      "time": "45 שניות",
+      "lat": 31.772744,
+      "lng": 34.719366
+    },
+    {
       "name_he": "כנות",
-      "name_en": "Kanot High School, Israel",
+      "name_en": "Kanot, Israel",
       "time": "דקה",
-      "lat": 31.8029524,
-      "lng": 34.7510202
+      "lat": 31.808215,
+      "lng": 34.755075
     },
     {
       "name_he": "מפעלי כנות",
@@ -10544,10 +10571,10 @@
     },
     {
       "name_he": "עיר כרמל",
-      "name_en": "Carmel",
+      "name_en": "Carmel City, Isfiya, Israel",
       "time": "דקה",
-      "lat": 31.432786,
-      "lng": 35.182268
+      "lat": 32.705887,
+      "lng": 35.056697
     }
   ],
   "שומרון 127": [
@@ -10676,10 +10703,10 @@
   "אשדוד 282": [
     {
       "name_he": "בית גוברין",
-      "name_en": "Beit Guvrin Street, Ramat HaSharon, Israel",
+      "name_en": "Beit Guvrin, Israel, Israel",
       "time": "דקה",
-      "lat": 32.1289729,
-      "lng": 34.853284
+      "lat": 31.61288,
+      "lng": 34.895568
     },
     {
       "name_he": "בית ניר",
@@ -10687,6 +10714,20 @@
       "time": "דקה",
       "lat": 31.647627,
       "lng": 34.873107
+    },
+    {
+      "name_he": "גלאון",
+      "name_en": "Gal On, Israel",
+      "time": "45 שניות",
+      "lat": 31.63337099999999,
+      "lng": 34.848898
+    },
+    {
+      "name_he": "לכיש",
+      "name_en": "Lachish, Israel",
+      "time": "45 שניות",
+      "lat": 31.560907,
+      "lng": 34.84409
     }
   ],
   "אשדוד 267": [
@@ -10699,7 +10740,7 @@
     },
     {
       "name_he": "בית רבן",
-      "name_en": "Beit Raban Secretariat, Givat Washington Educational Campus, Israel",
+      "name_en": "Beit Raban, Israel",
       "time": "דקה",
       "lat": 31.8166376,
       "lng": 34.729755
@@ -10736,8 +10777,8 @@
       "name_he": "כרם יבנה",
       "name_en": "Kerem Yavne, Israel",
       "time": "דקה",
-      "lat": 31.817725,
-      "lng": 34.7223
+      "lat": 31.828702,
+      "lng": 34.75309
     },
     {
       "name_he": "מישר",
@@ -10961,8 +11002,8 @@
       "name_he": "מבואות ים",
       "name_en": "Mevo'ot Yam, Israel",
       "time": "דקה וחצי",
-      "lat": 32.4016667,
-      "lng": 34.8666667
+      "lat": 32.401697,
+      "lng": 34.866797
     },
     {
       "name_he": "מכמורת",
@@ -10973,10 +11014,10 @@
     },
     {
       "name_he": "נעורים",
-      "name_en": "Ne'urim Street, Pardes Hanna-Karkur, Israel",
+      "name_en": "Ne'urim, Israel",
       "time": "דקה וחצי",
-      "lat": 32.4698206,
-      "lng": 34.993503
+      "lat": 31.9739,
+      "lng": 34.814382
     },
     {
       "name_he": "פארק תעשיות עמק חפר",
@@ -11087,10 +11128,10 @@
     },
     {
       "name_he": "מרכז קניות ביל''ו",
-      "name_en": "מרכז מסחרי/יוספטל, Ramla",
+      "name_en": "",
       "time": "דקה וחצי",
-      "lat": 31.934172,
-      "lng": 34.861037
+      "lat": 0.0,
+      "lng": 0.0
     },
     {
       "name_he": "משמר איילון",
@@ -11124,8 +11165,8 @@
       "name_he": "סתריה",
       "name_en": "Sitria, Israel",
       "time": "דקה וחצי",
-      "lat": 31.889854,
-      "lng": 34.842094
+      "lat": 0.0,
+      "lng": 0.0
     },
     {
       "name_he": "עזריה",
@@ -11224,10 +11265,10 @@
   "כרמל 81": [
     {
       "name_he": "בית צבי",
-      "name_en": "Beit Zvi, Ramat Gan, Israel",
+      "name_en": "Beit Zvi, Israel",
       "time": "דקה",
-      "lat": 32.0784942,
-      "lng": 34.8217003
+      "lat": 32.719323,
+      "lng": 34.969508
     },
     {
       "name_he": "גבע כרמל",
@@ -11337,6 +11378,27 @@
       "time": "30 שניות",
       "lat": 31.648125,
       "lng": 34.597146
+    },
+    {
+      "name_he": "גיאה",
+      "name_en": "Ge'a, Israel",
+      "time": "15 שניות",
+      "lat": 31.628467,
+      "lng": 34.602678
+    },
+    {
+      "name_he": "מבקיעים",
+      "name_en": "Mavki'im, Israel",
+      "time": "15 שניות",
+      "lat": 31.622518,
+      "lng": 34.577431
+    },
+    {
+      "name_he": "תלמי יפה",
+      "name_en": "Talmei Yaffe, Israel",
+      "time": "15 שניות",
+      "lat": 31.616857,
+      "lng": 34.612482
     }
   ],
   "דן 160": [
@@ -11385,11 +11447,11 @@
       "lng": 34.316403
     },
     {
-      "name_he": "נווה ",
-      "name_en": "Nawa, Syria",
+      "name_he": "נווה",
+      "name_en": "Neve, Israel",
       "time": "15 שניות",
-      "lat": 32.888889,
-      "lng": 36.043056
+      "lat": 31.162183,
+      "lng": 34.329827
     },
     {
       "name_he": "שלומית",
@@ -11513,6 +11575,20 @@
       "time": "15 שניות",
       "lat": 31.57794,
       "lng": 34.658391
+    },
+    {
+      "name_he": "שדה דוד",
+      "name_en": "Sde David, Israel",
+      "time": "30 שניות",
+      "lat": 31.577476,
+      "lng": 34.683443
+    },
+    {
+      "name_he": "תלמים",
+      "name_en": "Tlamim, Israel",
+      "time": "30 שניות",
+      "lat": 31.563416,
+      "lng": 34.67199799999999
     }
   ],
   "אשקלון 255": [
@@ -11705,18 +11781,18 @@
   ],
   "כרמל 80": [
     {
-      "name_he": "בתי זיקוק חיפה",
-      "name_en": "ההסתדרות/בתי זיקוק, Haifa",
-      "time": "דקה",
-      "lat": 32.799882,
-      "lng": 35.050769
-    },
-    {
       "name_he": "נשר",
       "name_en": "Nesher, Israel",
       "time": "דקה",
       "lat": 32.7649,
       "lng": 35.049191
+    },
+    {
+      "name_he": "בתי זיקוק חיפה",
+      "name_en": "Oil Refinery, Haifa",
+      "time": "דקה",
+      "lat": 32.799882,
+      "lng": 35.050769
     }
   ],
   "אשדוד 266": [
@@ -11756,6 +11832,64 @@
       "time": "30 שניות",
       "lat": 31.203909,
       "lng": 34.533359
+    }
+  ],
+  "מנשה 106": [
+    {
+      "name_he": "גבעת אולגה",
+      "name_en": "Hadera, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.4340458,
+      "lng": 34.9196518
+    },
+    {
+      "name_he": "גן השומרון",
+      "name_en": "Gan HaShomron, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.465007,
+      "lng": 34.999047
+    },
+    {
+      "name_he": "כפר פינס",
+      "name_en": "Kfar Pines, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.482717,
+      "lng": 35.002063
+    },
+    {
+      "name_he": "משמרות",
+      "name_en": "Mishmarot, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.486513,
+      "lng": 34.983892
+    },
+    {
+      "name_he": "נווה אבות",
+      "name_en": "Derech HaAvot, Yad Binyamin, Israel",
+      "time": "דקה וחצי",
+      "lat": 31.79756799999999,
+      "lng": 34.81778660000001
+    },
+    {
+      "name_he": "עין עירון",
+      "name_en": "Ein Iron, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.484427,
+      "lng": 35.010069
+    },
+    {
+      "name_he": "עין שמר",
+      "name_en": "Ein Shemer, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.461917,
+      "lng": 35.00673
+    },
+    {
+      "name_he": "פרדס חנה כרכור",
+      "name_en": "Pardes Hanna-Karkur, Israel",
+      "time": "דקה וחצי",
+      "lat": 32.4728028,
+      "lng": 34.9742001
     }
   ],
   "שפלה 168": [
@@ -11847,10 +11981,10 @@
     },
     {
       "name_he": "שער מנשה",
-      "name_en": "שער-מנשה",
+      "name_en": "Sha'ar Menashe, Israel",
       "time": "דקה וחצי",
-      "lat": 32.452373,
-      "lng": 35.01436
+      "lat": 32.509997,
+      "lng": 35.00519999999999
     },
     {
       "name_he": "תלמי אלעזר",
@@ -11893,10 +12027,10 @@
     },
     {
       "name_he": "גפן",
-      "name_en": "HaGefen Street, Tzafria, Israel",
+      "name_en": "Gefen, Israel",
       "time": "דקה",
-      "lat": 32.00091,
-      "lng": 34.8556493
+      "lat": 31.740766,
+      "lng": 34.878563
     },
     {
       "name_he": "זכריה",
@@ -11909,8 +12043,8 @@
       "name_he": "כפר זוהרים",
       "name_en": "Kfar Zoharim, Israel",
       "time": "דקה",
-      "lat": 31.6225,
-      "lng": 34.9255556
+      "lat": 31.622631,
+      "lng": 34.925669
     },
     {
       "name_he": "לוזית",
@@ -12059,29 +12193,6 @@
       "lng": 35.659949
     }
   ],
-  "אשקלון 250": [
-    {
-      "name_he": "גיאה",
-      "name_en": "Ge'a, Israel",
-      "time": "15 שניות",
-      "lat": 31.628467,
-      "lng": 34.602678
-    },
-    {
-      "name_he": "מבקיעים",
-      "name_en": "Mavki'im, Israel",
-      "time": "15 שניות",
-      "lat": 31.622518,
-      "lng": 34.577431
-    },
-    {
-      "name_he": "תלמי יפה",
-      "name_en": "Talmei Yaffe, Israel",
-      "time": "15 שניות",
-      "lat": 31.616857,
-      "lng": 34.612482
-    }
-  ],
   "בקעה 131": [
     {
       "name_he": "גיתית",
@@ -12106,26 +12217,10 @@
     },
     {
       "name_he": "שלומציון",
-      "name_en": "Shlomtsiyon Street, Hod HaSharon, Israel",
+      "name_en": "Shlomtsiyon",
       "time": "דקה וחצי",
-      "lat": 32.1350989,
-      "lng": 34.9015417
-    }
-  ],
-  "אשדוד 282": [
-    {
-      "name_he": "גלאון",
-      "name_en": "Gal On, Israel",
-      "time": "45 שניות",
-      "lat": 31.63337099999999,
-      "lng": 34.848898
-    },
-    {
-      "name_he": "לכיש",
-      "name_en": "Lachish, Israel",
-      "time": "45 שניות",
-      "lat": 31.560907,
-      "lng": 34.84409
+      "lat": 32.100427,
+      "lng": 35.494241
     }
   ],
   "בקעה 132": [
@@ -12173,10 +12268,10 @@
     },
     {
       "name_he": "נעמי",
-      "name_en": "Naomi Street, Haifa, Israel",
+      "name_en": "Na'ama",
       "time": "דקה וחצי",
-      "lat": 32.7969565,
-      "lng": 34.9738491
+      "lat": 31.907541,
+      "lng": 35.467713
     },
     {
       "name_he": "נתיב הגדוד",
@@ -12249,80 +12344,6 @@
       "time": "דקה וחצי",
       "lat": 32.137793,
       "lng": 34.840278
-    }
-  ],
-  "אשדוד 273": [
-    {
-      "name_he": "גן הדרום",
-      "name_en": "Gan HaDarom, Israel",
-      "time": "45 שניות",
-      "lat": 31.804056,
-      "lng": 34.69987
-    },
-    {
-      "name_he": "גן יבנה",
-      "name_en": "Gan Yavne, Israel",
-      "time": "45 שניות",
-      "lat": 31.783056,
-      "lng": 34.703101
-    },
-    {
-      "name_he": "חצור אשדוד",
-      "name_en": "Hatsor Ashdod, Israel",
-      "time": "45 שניות",
-      "lat": 31.772744,
-      "lng": 34.719366
-    }
-  ],
-  "מנשה 106": [
-    {
-      "name_he": "גן השומרון",
-      "name_en": "Gan HaShomron, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.465007,
-      "lng": 34.999047
-    },
-    {
-      "name_he": "כפר פינס",
-      "name_en": "Kfar Pines, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.482717,
-      "lng": 35.002063
-    },
-    {
-      "name_he": "משמרות",
-      "name_en": "Mishmarot, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.486513,
-      "lng": 34.983892
-    },
-    {
-      "name_he": "נווה אבות",
-      "name_en": "Derech HaAvot, Yad Binyamin, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.79756799999999,
-      "lng": 34.81778660000001
-    },
-    {
-      "name_he": "עין עירון",
-      "name_en": "Ein Iron, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.484427,
-      "lng": 35.010069
-    },
-    {
-      "name_he": "עין שמר",
-      "name_en": "Ein Shemer, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.461917,
-      "lng": 35.00673
-    },
-    {
-      "name_he": "פרדס חנה כרכור",
-      "name_en": "Pardes Hanna-Karkur, Israel",
-      "time": "דקה וחצי",
-      "lat": 32.4728028,
-      "lng": 34.9742001
     }
   ],
   "שרון 141": [
@@ -12464,43 +12485,13 @@
       "time": "מיידי",
       "lat": 32.977493,
       "lng": 35.099129
-    }
-  ],
-  "אשדוד 281": [
-    {
-      "name_he": "גת",
-      "name_en": "Yanuh-Jat, Israel",
-      "time": "45 שניות",
-      "lat": 32.981568,
-      "lng": 35.241169
     },
     {
-      "name_he": "מבחור",
-      "name_en": "Mabhur, Israel",
-      "time": "45 שניות",
-      "lat": 31.620886,
-      "lng": 34.771006
-    },
-    {
-      "name_he": "נועם",
-      "name_en": "No'am, Israel",
-      "time": "45 שניות",
-      "lat": 31.568567,
-      "lng": 34.788161
-    },
-    {
-      "name_he": "קרית גת",
-      "name_en": "Kiryat Gat, Israel",
-      "time": "45 שניות",
-      "lat": 31.611148,
-      "lng": 34.768459
-    },
-    {
-      "name_he": "שדה משה",
-      "name_en": "Sde Moshe, Israel",
-      "time": "45 שניות",
-      "lat": 31.610982,
-      "lng": 34.800427
+      "name_he": "שבי ציון",
+      "name_en": "Shavei Tzion, Israel",
+      "time": "30 שניות",
+      "lat": 32.982079,
+      "lng": 35.083005
     }
   ],
   "קו העימות 19": [
@@ -12533,6 +12524,20 @@
       "time": "15 שניות",
       "lat": 31.507207,
       "lng": 34.645725
+    },
+    {
+      "name_he": "חוות שיקמים",
+      "name_en": "Havat Shikmim, Israel",
+      "time": "30 שניות",
+      "lat": 31.511275,
+      "lng": 34.633864
+    },
+    {
+      "name_he": "רוחמה",
+      "name_en": "Kibbutz Ruhama, Israel",
+      "time": "30 שניות",
+      "lat": 31.497378,
+      "lng": 34.705165
     }
   ],
   "קו העימות 24": [
@@ -12713,13 +12718,6 @@
   ],
   "חיפה 75": [
     {
-      "name_he": "החותרים",
-      "name_en": "Hahotrim, Israel",
-      "time": "דקה",
-      "lat": 32.752311,
-      "lng": 34.957545
-    },
-    {
       "name_he": "חיפה",
       "name_en": "Haifa, Israel",
       "time": "דקה",
@@ -12732,6 +12730,13 @@
       "time": "דקה",
       "lat": 32.762127,
       "lng": 34.97298
+    },
+    {
+      "name_he": "החותרים",
+      "name_en": "Hahotrim, Israel",
+      "time": "דקה",
+      "lat": 32.752311,
+      "lng": 34.957545
     },
     {
       "name_he": "כפר גלים",
@@ -12867,10 +12872,10 @@
     },
     {
       "name_he": "שחר",
-      "name_en": "HaShahar Street, Mazor, Israel",
+      "name_en": "Shahar, Israel, Israel",
       "time": "30 שניות",
-      "lat": 32.05209900000001,
-      "lng": 34.929827
+      "lat": 31.618235,
+      "lng": 34.723746
     }
   ],
   "עוטף עזה 217": [
@@ -12933,22 +12938,6 @@
       "lng": 34.541314
     }
   ],
-  "אשקלון 253": [
-    {
-      "name_he": "זרועה",
-      "name_en": "Zru'a, Israel",
-      "time": "15 שניות",
-      "lat": 31.459133,
-      "lng": 34.624161
-    },
-    {
-      "name_he": "ניר משה",
-      "name_en": "Nir Moshe, Israel",
-      "time": "15 שניות",
-      "lat": 31.477456,
-      "lng": 34.630085
-    }
-  ],
   "מנשה 107": [
     {
       "name_he": "חדרה",
@@ -12956,22 +12945,6 @@
       "time": "דקה וחצי",
       "lat": 32.4340458,
       "lng": 34.9196518
-    }
-  ],
-  "אשקלון 252": [
-    {
-      "name_he": "חוות שיקמים",
-      "name_en": "Havat Shikmim, Israel",
-      "time": "30 שניות",
-      "lat": 31.511275,
-      "lng": 34.633864
-    },
-    {
-      "name_he": "רוחמה",
-      "name_en": "Kibbutz Ruhama, Israel",
-      "time": "30 שניות",
-      "lat": 31.497378,
-      "lng": 34.705165
     }
   ],
   "עוטף עזה 236": [
@@ -13014,10 +12987,10 @@
     },
     {
       "name_he": "פקיעין/בוקיעה",
-      "name_en": "Pki'in Street, Ma'alot-Tarshiha, Israel",
+      "name_en": "מסעף בוקיעה אל ג'רביה, Peki'in",
       "time": "מיידי",
-      "lat": 33.012733,
-      "lng": 35.286286
+      "lat": 32.994254,
+      "lng": 35.309878
     },
     {
       "name_he": "צבעון",
@@ -13148,10 +13121,10 @@
     },
     {
       "name_he": "מגדל תפן",
-      "name_en": "Tefen Boulevard, Israel",
+      "name_en": "Migdal Tefen, Israel",
       "time": "30 שניות",
-      "lat": 32.9742996,
-      "lng": 35.2761141
+      "lat": 32.9766793,
+      "lng": 35.278017
     }
   ],
   "עוטף עזה 218": [
@@ -13232,43 +13205,6 @@
       "lng": 35.383571
     }
   ],
-  "אשדוד 275": [
-    {
-      "name_he": "ינון",
-      "name_en": "Yinon, Israel",
-      "time": "דקה",
-      "lat": 31.741832,
-      "lng": 34.780947
-    },
-    {
-      "name_he": "כפר הרי''ף",
-      "name_en": "Kfar HaRif, Israel",
-      "time": "דקה",
-      "lat": 31.747029,
-      "lng": 34.790928
-    },
-    {
-      "name_he": "כפר מנחם",
-      "name_en": "Kfar Menahem, Israel",
-      "time": "דקה",
-      "lat": 31.732077,
-      "lng": 34.835079
-    },
-    {
-      "name_he": "תלמי יחיאל",
-      "name_en": "Talmei Yehi'el, Israel",
-      "time": "דקה",
-      "lat": 31.753621,
-      "lng": 34.764308
-    },
-    {
-      "name_he": "תעשיון ראם",
-      "name_en": "תעשיון צריפין, Be'er Ya'akov",
-      "time": "דקה",
-      "lat": 31.964252,
-      "lng": 34.848336
-    }
-  ],
   "עוטף עזה 234": [
     {
       "name_he": "ישע",
@@ -13333,15 +13269,6 @@
       "lng": 35.245675
     }
   ],
-  "אשדוד 277": [
-    {
-      "name_he": "כנף 2",
-      "name_en": "2, Kanaf",
-      "time": "דקה וחצי",
-      "lat": 32.868954,
-      "lng": 35.699843
-    }
-  ],
   "עוטף עזה 223": [
     {
       "name_he": "כפר עזה",
@@ -13365,15 +13292,6 @@
       "time": "15 שניות",
       "lat": 31.228281,
       "lng": 34.284559
-    }
-  ],
-  "באר שבע 286": [
-    {
-      "name_he": "להב",
-      "name_en": "Lahav, Israel",
-      "time": "דקה",
-      "lat": 31.379363,
-      "lng": 34.871311
     }
   ],
   "גליל עליון 35": [
@@ -13402,10 +13320,10 @@
     },
     {
       "name_he": "מועצה אזורית אשכול",
-      "name_en": "מועצה אזורית אשכול",
+      "name_en": "Eshkol Regional Council, Israel",
       "time": "15 שניות",
-      "lat": 31.30247799999999,
-      "lng": 34.432251
+      "lat": 31.303121,
+      "lng": 34.431501
     },
     {
       "name_he": "מפעלי מעון",
@@ -13439,10 +13357,10 @@
     },
     {
       "name_he": "מרחב עם",
-      "name_en": "מרחב עם",
+      "name_en": "Merhav Am, Israel",
       "time": "דקה וחצי",
-      "lat": 30.888848,
-      "lng": 34.827365
+      "lat": 30.888022,
+      "lng": 34.828175
     },
     {
       "name_he": "שדה בוקר",
@@ -13455,26 +13373,10 @@
   "שפלה 171": [
     {
       "name_he": "מחנה נחשונים",
-      "name_en": "",
+      "name_en": "Israel National Trail",
       "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "באר שבע 288": [
-    {
-      "name_he": "מסלול",
-      "name_en": "Maslul, Israel",
-      "time": "30 שניות",
-      "lat": 31.323677,
-      "lng": 34.590761
-    },
-    {
-      "name_he": "רנן",
-      "name_en": "Ranen, Israel",
-      "time": "30 שניות",
-      "lat": 31.33871,
-      "lng": 34.600358
+      "lat": 32.0935486,
+      "lng": 34.9268362
     }
   ],
   "עוטף עזה 221": [
@@ -13525,15 +13427,6 @@
       "lng": 0.0
     }
   ],
-  "נגב 300": [
-    {
-      "name_he": "נאות חובב",
-      "name_en": "Ramat Hovav, Israel",
-      "time": "דקה וחצי",
-      "lat": 31.135,
-      "lng": 34.791
-    }
-  ],
   "עוטף עזה 224": [
     {
       "name_he": "נחל עוז",
@@ -13552,13 +13445,6 @@
   ],
   "אשקלון 245": [
     {
-      "name_he": "ניצנים",
-      "name_en": "Nitzanim, Israel",
-      "time": "30 שניות",
-      "lat": 31.717845,
-      "lng": 34.634636
-    },
-    {
       "name_he": "ניצן",
       "name_en": "Nitzan, Israel",
       "time": "45 שניות",
@@ -13571,6 +13457,13 @@
       "time": "45 שניות",
       "lat": 31.737089,
       "lng": 34.638235
+    },
+    {
+      "name_he": "ניצנים",
+      "name_en": "Nitzanim, Israel",
+      "time": "30 שניות",
+      "lat": 31.717845,
+      "lng": 34.634636
     }
   ],
   "עוטף עזה 232": [
@@ -13610,10 +13503,10 @@
   "שפלה 172": [
     {
       "name_he": "נמל תעופה בן גוריון",
-      "name_en": "Ben Gurion Airport (TLV), Ben-Gurion Airport, Israel",
+      "name_en": "Ben Gurion Airport, Israel",
       "time": "דקה וחצי",
-      "lat": 32.0002924,
-      "lng": 34.8783897
+      "lat": 32.000733,
+      "lng": 34.87072800000001
     }
   ],
   "גליל עליון 46": [
@@ -13643,119 +13536,13 @@
       "lng": 34.458823
     }
   ],
-  "קו העימות 29": [
-    {
-      "name_he": "שבי ציון",
-      "name_en": "Shavei Tzion, Israel",
-      "time": "30 שניות",
-      "lat": 32.982079,
-      "lng": 35.083005
-    }
-  ],
-  "אשקלון 251": [
-    {
-      "name_he": "שדה דוד",
-      "name_en": "Sde David, Israel",
-      "time": "30 שניות",
-      "lat": 31.577476,
-      "lng": 34.683443
-    },
-    {
-      "name_he": "תלמים",
-      "name_en": "Tlamim, Israel",
-      "time": "30 שניות",
-      "lat": 31.563416,
-      "lng": 34.67199799999999
-    }
-  ],
   "ערבה 308": [
     {
       "name_he": "שיטים",
-      "name_en": "Ha-Shayatim Street, Ashdod, Israel",
+      "name_en": "Shitim, Israel",
       "time": "3 דקות",
-      "lat": 31.8004216,
-      "lng": 34.6409993
-    }
-  ],
-  "עמק יזרעאל 94": [
-    {
-      "name_he": "תחנת הכוח אלון תבור",
-      "name_en": "",
-      "time": "דקה",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "אשדוד 263": [
-    {
-      "name_he": "תחנת הכוח אשדוד",
-      "name_en": "Ashdod, Israel",
-      "time": "45 שניות",
-      "lat": 31.804381,
-      "lng": 34.655314
-    }
-  ],
-  "שפלה 186": [
-    {
-      "name_he": "תחנת הכוח גזר",
-      "name_en": "",
-      "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "מנשה 110": [
-    {
-      "name_he": "תחנת הכוח חגית",
-      "name_en": "",
-      "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "חיפה 77": [
-    {
-      "name_he": "תחנת הכוח חיפה",
-      "name_en": "Haifa, Israel",
-      "time": "דקה",
-      "lat": 32.7940463,
-      "lng": 34.989571
-    }
-  ],
-  "אשדוד 264": [
-    {
-      "name_he": "תחנת הכוח צפית",
-      "name_en": "",
-      "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "אשקלון 239": [
-    {
-      "name_he": "תחנת הכוח רוטנברג",
-      "name_en": "",
-      "time": "15 שניות",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "דן 158": [
-    {
-      "name_he": "תחנת הכוח רידינג",
-      "name_en": "",
-      "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
-    }
-  ],
-  "נגב 306": [
-    {
-      "name_he": "תחנת הכוח רמת חובב",
-      "name_en": "",
-      "time": "דקה וחצי",
-      "lat": 0.0,
-      "lng": 0.0
+      "lat": 30.176442,
+      "lng": 35.016722
     }
   ],
   "דן 157": [

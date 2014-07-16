@@ -201,7 +201,7 @@ class Bot:
             if DEBUG:
                 print "Tweeting: ", msg
             else:
-                #Bot.api.update_status(msg)
+                Bot.api.update_status(msg)
                 time.sleep(1)
 
     def run(self):

@@ -24,8 +24,9 @@ import traceback
 import yaml
 import re
 from math import floor
-from itertools import izip_longest
+from itertools import izip_longest, chain
 from docopt import docopt
+from collections import defaultdict
 
 __version__ = '0.0.4'
 
@@ -59,10 +60,10 @@ DATA_API_URL = 'http://www.oref.org.il/WarningMessages/alerts.json'
 EXAMPLE_FILE = config['dev']['stub_file']
 HEADERS = { 'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36' }
 
-TIME_FORMAT = '%d/%m/%y,%H:%M:%S'
-TWEET_MSG = '{0} Missiles launched against {1}. #IsraelUnderFire #GazaUnderAttack #PrayForGaza'
-ALTERNATE_TWEET_MSG = '{0} Missiles launched against {1} & {2} others. #IsraelUnderFire #PrayForGaza'
-GENERIC_TWEET_MSG = '{0} Missiles launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack #PrayForGaza'
+TIME_FORMAT = '%b%d,%H:%M'
+TWEET_MSG = '{0} Hamas fired against citizens of {1}. #IsraelUnderFire #GazaUnderAttack http://bit.ly/retwt4isrl'
+ALTERNATE_TWEET_MSG = '{0} Hamas fired against citizens of {1} & {2} others. #IsraelUnderFire #GazaUnderAttack http://bit.ly/retwt4isrl'
+GENERIC_TWEET_MSG = '{0} Missiles launched against numerous cities right now!. #IsraelUnderFire #GazaUnderAttack http://bit.ly/retwt4isrl'
 def get_access_tokens():
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
     auth.secure = True
@@ -107,6 +108,25 @@ class Bot:
 
         return answer
 
+    def extract_city_name(self, long_name):
+        """
+        Take a string like "SomeName, Israel, Israel" or "SmallName, BiggerName, Israel"
+        and attempt to extract the most relevant info,
+        Structure of the file is quite weird in some places
+        """
+        elements = [part.strip() for part in long_name.split(',')]
+        try:
+            if len(elements) == 1 or len(elements[0].split(' ')) <= 2:
+                return elements[0]
+            elif elements[1] != 'Israel' and len(elements[1].split(' '))<=2:
+                return elements[1]
+            else:
+                return None
+        except IndexError:
+            logging.warning("INDEXERROR for area : %s", area)
+
+        return None
+
     def cities_by_location_indices(self, indices):
         """
         Returns a unique list of city names according to the indices parameter
@@ -115,25 +135,23 @@ class Bot:
         logging.debug("Got indices: %s", indices)
         # Extract english name of areas, exclude areas which names contains any Hebrew characters (some oddities)
         heb = re.compile(ur'^[^\u05d0-\u05ea]*$', re.UNICODE)
-        areas = [city['name_en'] for area in indices for city in Bot.location_index[area] if city['name_en'] != '' and heb.match(city['name_en'])]
-        # Structure of the file is quite weird in some places :-/
-        names = []
+        areas = defaultdict(list)
+        [areas[area].append(self.extract_city_name(city['name_en'])) for area in indices for city in Bot.location_index[area] if city['name_en'] != '' and heb.match(city['name_en'])]
 
-        for area in areas:
-            t = [a.strip() for a in area.split(',')]
-            try:
-                if len(t) == 1 or len(t[0].split(' ')) <= 2:
-                    names.append(t[0])
-                elif t[1] != 'Israel' and len(t[1].split(' '))<=2:
-                    names.append(t[1])
-                else:
-                    continue
-            except IndexError:
-                logging.warning("INDEXERROR for area : %s", area)
+        # group_of_cities is a list of lists. Every sublist is a list of cities for a particular area
+        # Those cities names have already been cleaned by extract_city_name
+        groups_of_cities = [v for k,v in areas.items()]
 
-        names = list(set(names)) #stupid uniquify trick
-        logging.debug("Extracted names from indices: %s", names)
-        return names
+        # zipped_cities is a list of iterables, each one contains of element from each group
+        # of group_of_cities, this allows to try and display at least on city from each area before displaying
+        # other cities from the same area
+        zipped_cities = [filter(None,l) for l in izip_longest(fillvalue='', *groups_of_cities)]
+
+        # cities is a flattened list of that iterable generated from zipped_cities]
+        cities = list(chain.from_iterable(zipped_cities))
+
+        logging.debug("Extracted cities from indices: %s", cities)
+        return cities
 
     def build_tweets(self, n, cities, alternate=False):
         """

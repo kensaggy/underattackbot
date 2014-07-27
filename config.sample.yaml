@@ -7,6 +7,7 @@ files:
   log_file: "/home/bot/bot.log"
   pid_file: "/home/bot/bot.pid"
   locations_file: "/home/bot/locations_json.json"
+  twitter_log: "/home/bot/tweets.log"
 
 keys:
   api_key: ""

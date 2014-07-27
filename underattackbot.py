@@ -20,6 +20,7 @@ import json
 import tweepy
 import time
 import logging
+import logging.handlers
 import traceback
 import yaml
 import re
@@ -42,14 +43,33 @@ except:
 PIDFILE = config['files']['pid_file']
 LOGFILE = config['files']['log_file']
 LOCATIONS_INDEX = config['files']['locations_file']
+TWITTER_LOG = config['files']['twitter_log']
 
 DEBUG = config['debug']
 
-logging.basicConfig(filename=LOGFILE,level=logging.DEBUG)
+
+twitter_logger = logging.getLogger('tweets')
+
+general_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+twitter_formatter = logging.Formatter('%(asctime)s - %(message)s')
+
+general_log_handler = logging.handlers.RotatingFileHandler(filename=LOGFILE, maxBytes=5120, backupCount=5)
+general_log_handler.setFormatter(general_formatter)
+
+twitter_log_handler = logging.handlers.RotatingFileHandler(filename=TWITTER_LOG, maxBytes=5120, backupCount=5)
+twitter_log_handler.setFormatter(twitter_formatter)
+
+logging.getLogger('').addHandler(general_log_handler)
+logging.getLogger('').setLevel(logging.DEBUG)
+
+twitter_logger.addHandler(twitter_log_handler)
+twitter_logger.setLevel(logging.INFO)
+
 if DEBUG:
     console = logging.StreamHandler()
     console.setLevel(logging.DEBUG)
     logging.getLogger('').addHandler(console)
+
 
 ACCESS_KEY = config['keys']['access_key']
 ACCESS_SECRET = config['keys']['access_secret']
@@ -64,6 +84,7 @@ TIME_FORMAT = '%b%d,%H:%M'
 TWEET_MSG = '{0} #Hamas fired against citizens of {1}. #IsraelUnderFire bit.ly/retweet4israel'
 ALTERNATE_TWEET_MSG = '{0} #Hamas fired against citizens of {1} & {2} others. #IsraelUnderFire bit.ly/retweet4israel'
 GENERIC_TWEET_MSG = '{0} Missiles launched against numerous cities right now!. #IsraelUnderFire bit.ly/retweet4israel'
+
 def get_access_tokens():
     auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
     auth.secure = True
@@ -221,6 +242,7 @@ class Bot:
             else:
                 Bot.api.update_status(msg)
                 time.sleep(1)
+            twitter_logger.info(msg)
 
     def run(self):
         try:

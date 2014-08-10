@@ -244,6 +244,9 @@ class Bot:
                 time.sleep(1)
             twitter_logger.info(msg)
 
+    def quickfix_homefront_changes(self, string):
+        return string.replace(u'מרחב', u'').replace(u'-', u' ').strip()
+
     def run(self):
         try:
             while True:
@@ -252,7 +255,7 @@ class Bot:
                 if result['data'] and result_id > self.last_alert_id:
                     logging.debug("New alert with id: %s (old id: %s)", result_id, self.last_alert_id)
                     self.last_alert_id = result_id
-                    indices = [item.strip() for d in result['data'] for item in d.split(',')]
+                    indices = [self.quickfix_homefront_changes(item) for d in result['data'] for item in d.split(',')]
                     cities = self.cities_by_location_indices(indices)
                     self.tweet_it(cities)
 

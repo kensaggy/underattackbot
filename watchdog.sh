@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Absolute path to bot.pid (and underattackbot.py)
 # or relative path to user's home directory when running with crontab

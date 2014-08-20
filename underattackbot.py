@@ -53,10 +53,10 @@ twitter_logger = logging.getLogger('tweets')
 general_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 twitter_formatter = logging.Formatter('%(asctime)s - %(message)s')
 
-general_log_handler = logging.handlers.RotatingFileHandler(filename=LOGFILE, maxBytes=5120, backupCount=5)
+general_log_handler = logging.handlers.RotatingFileHandler(filename=LOGFILE, maxBytes=5120000, backupCount=5)
 general_log_handler.setFormatter(general_formatter)
 
-twitter_log_handler = logging.handlers.RotatingFileHandler(filename=TWITTER_LOG, maxBytes=5120, backupCount=5)
+twitter_log_handler = logging.handlers.RotatingFileHandler(filename=TWITTER_LOG, maxBytes=5120000, backupCount=5)
 twitter_log_handler.setFormatter(twitter_formatter)
 
 logging.getLogger('').addHandler(general_log_handler)
